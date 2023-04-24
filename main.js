@@ -1,6 +1,6 @@
 // Set your Mapbox access token
 mapboxgl.accessToken =
-  "pk.eyJ1IjoibmVsc2RhbmllbHNvbiIsImEiOiJjbGd1OG5tanYwZHFvM2NsajM5cWkwbnFrIn0.z-KHXkPhO71F79tqvJksRA";
+  "pk.eyJ1IjoibmVsc2RhbmllbHNvbiIsImEiOiJjbGd1OG51YWIyM2lxM2RwOWRhOG1kYzM1In0._jwqytLACO-3fKkTlrfzVg";
 
 // Initialize the map
 const map = new mapboxgl.Map({
@@ -43,6 +43,10 @@ async function addTravelDataToMap(map, travelData, routes) {
     markerElement.style.setProperty(
       "--color",
       getColorByYear(destination.year)
+    );
+    markerElement.style.setProperty(
+      "--outlineColor",
+      destination.past ? "#000" : "#fff"
     );
 
     // Create a new Mapbox GL JS marker and add it to the map
@@ -87,7 +91,8 @@ async function addTravelDataToMap(map, travelData, routes) {
         },
         paint: {
           "line-color": getColorByYear(destination.year),
-          "line-width": 4
+          "line-width": 4,
+          "line-dasharray": destination.past ? [] : [2, 1]
         }
       });
     }
@@ -103,13 +108,14 @@ async function getDrivingRoute(origin, destination) {
   const data = await response.json();
   const route = data.routes[0].geometry.coordinates;
 
+  console.log(`API route request from ${origin} to ${destination}`);
   return route;
 }
 
 function createLegend() {
   const legend = document.getElementById("legend");
 
-  const years = [2020, 2021, 2022, 2023]; // Add more years as needed
+  const years = [2023, 2022, 2021, 2020]; // Add more years as needed
 
   years.forEach((year) => {
     const item = document.createElement("div");
@@ -124,7 +130,7 @@ function createLegend() {
 
     item.appendChild(color);
     item.appendChild(label);
-    legend.appendChild(item);
+    legend.prepend(item);
   });
 }
 

@@ -3,252 +3,378 @@
     "location": "Duluth, MN",
     "coordinates": [-92.1005, 46.7867],
     "stayDuration": "long",
-    "year": 2020
+    "year": 2020,
+    "past": true
   },
   {
     "location": "Lake Elsinore, CA",
     "coordinates": [-117.3273, 33.6681],
     "stayDuration": "long",
-    "year": 2020
+    "year": 2020,
+    "past": true
   },
   {
     "location": "Quartzsite, AZ",
     "coordinates": [-114.222, 33.6634],
     "stayDuration": "long",
-    "year": 2021
+    "year": 2021,
+    "past": true
   },
   {
     "location": "Weatherford, OK",
     "coordinates": [-98.7028, 35.5262],
     "stayDuration": "short",
-    "year": 2021
+    "year": 2021,
+    "past": true
   },
   {
     "location": "Duluth, MN",
-    "coordinates": [-92.1005, 46.7867],
+    "coordinates": [-92.0705, 46.7867],
     "stayDuration": "long",
-    "year": 2021
+    "year": 2021,
+    "past": true
   },
   {
     "location": "Yankton, SD",
     "coordinates": [-97.3923, 42.871],
     "stayDuration": "long",
-    "year": 2021
+    "year": 2021,
+    "past": true
   },
   {
     "location": "Prosper, TX",
     "coordinates": [-96.8018, 33.2367],
     "stayDuration": "long",
-    "year": 2021
+    "year": 2021,
+    "past": true
   },
   {
     "location": "Galveston, TX",
     "coordinates": [-94.7977, 29.3013],
     "stayDuration": "long",
-    "year": 2021
+    "year": 2021,
+    "past": true
   },
   {
     "location": "Hot Springs, AR",
     "coordinates": [-93.0552, 34.5037],
     "stayDuration": "long",
-    "year": 2022
+    "year": 2022,
+    "past": true
   },
   {
     "location": "Abilene, TX",
     "coordinates": [-99.7331, 32.4487],
     "stayDuration": "long",
-    "year": 2022
+    "year": 2022,
+    "past": true
   },
   {
     "location": "Alamogordo, NM",
     "coordinates": [-105.9603, 32.8995],
     "stayDuration": "short",
-    "year": 2022
+    "year": 2022,
+    "past": true
   },
   {
     "location": "Payson, AZ",
     "coordinates": [-111.3251, 34.2304],
     "stayDuration": "short",
-    "year": 2022
+    "year": 2022,
+    "past": true
   },
   {
     "location": "Grand Canyon Village, AZ",
     "coordinates": [-112.1155, 36.0544],
     "stayDuration": "short",
-    "year": 2022
+    "year": 2022,
+    "past": true
   },
   {
     "location": "Virgin, UT",
     "coordinates": [-113.191, 37.2006],
     "stayDuration": "short",
-    "year": 2022
+    "year": 2022,
+    "past": true
   },
   {
     "location": "Moab, UT",
     "coordinates": [-109.7333, 38.5733],
     "stayDuration": "short",
-    "year": 2022
+    "year": 2022,
+    "past": true
   },
   {
     "location": "Provo, UT",
     "coordinates": [-111.6585, 40.2338],
     "stayDuration": "short",
-    "year": 2022
+    "year": 2022,
+    "past": true
   },
   {
-    "location": "Eagle, ID",
-    "coordinates": [-116.3545, 43.6958],
+    "location": "Boise, ID",
+    "coordinates": [-116.2023, 43.6187],
     "stayDuration": "short",
-    "year": 2022
+    "year": 2022,
+    "past": true
   },
   {
-    "location": "Carson, WA",
-    "coordinates": [-121.814, 45.7323],
+    "location": "Hood River, OR",
+    "coordinates": [-121.5217, 45.7054],
     "stayDuration": "long",
-    "year": 2022
+    "year": 2022,
+    "past": true
   },
   {
-    "location": "Chinook, WA",
-    "coordinates": [-123.9454, 46.2729],
+    "location": "Astoria, OR",
+    "coordinates": [-123.8303, 46.1879],
     "stayDuration": "long",
-    "year": 2022
+    "year": 2022,
+    "past": true
   },
   {
     "location": "Rock Springs, WY",
     "coordinates": [-109.1985, 41.5875],
     "stayDuration": "short",
-    "year": 2022
+    "year": 2022,
+    "past": true
   },
   {
     "location": "New Underwood, SD",
     "coordinates": [-102.7996, 44.1152],
     "stayDuration": "short",
-    "year": 2022
+    "year": 2022,
+    "past": true
   },
   {
     "location": "Black Hawk, SD",
     "coordinates": [-103.275, 44.1604],
     "stayDuration": "long",
-    "year": 2022
+    "year": 2022,
+    "past": true
   },
   {
     "location": "Duluth, MN",
-    "coordinates": [-92.1005, 46.7867],
+    "coordinates": [-92.0405, 46.7867],
     "stayDuration": "long",
-    "year": 2022
+    "year": 2022,
+    "past": true
   },
   {
     "location": "Aurora, IL",
     "coordinates": [-88.3201, 41.7606],
     "stayDuration": "long",
-    "year": 2022
+    "year": 2022,
+    "past": true
   },
   {
     "location": "Cape Girardeau, MO",
     "coordinates": [-89.5182, 37.3059],
     "stayDuration": "short",
-    "year": 2022
+    "year": 2022,
+    "past": true
   },
   {
-    "location": "Marion, AR",
-    "coordinates": [-90.1994, 35.214],
+    "location": "Memphis, TN",
+    "coordinates": [-90.0489, 35.1495],
     "stayDuration": "short",
-    "year": 2022
+    "year": 2022,
+    "past": true
   },
   {
     "location": "Bay St. Louis, MS",
     "coordinates": [-89.2973, 30.3089],
     "stayDuration": "short",
-    "year": 2022
+    "year": 2022,
+    "past": true
   },
   {
-    "location": "Von Ormy, TX",
-    "coordinates": [-98.6298, 29.2667],
+    "location": "San Antonio, TX",
+    "coordinates": [-98.4936, 29.4241],
     "stayDuration": "long",
-    "year": 2023
+    "year": 2023,
+    "past": true
   },
   {
     "location": "Fort Stockton, TX",
     "coordinates": [-101.8781, 30.8949],
     "stayDuration": "short",
-    "year": 2023
+    "year": 2023,
+    "past": true
   },
   {
     "location": "El Paso, TX",
     "coordinates": [-106.4425, 31.7619],
     "stayDuration": "short",
-    "year": 2023
+    "year": 2023,
+    "past": true
   },
   {
     "location": "Tucson, AZ",
     "coordinates": [-110.9265, 32.2217],
     "stayDuration": "short",
-    "year": 2023
+    "year": 2023,
+    "past": true
   },
   {
-    "location": "Desert Edge, CA",
-    "coordinates": [-116.3009, 33.744],
+    "location": "Palm Springs, CA",
+    "coordinates": [-116.5453, 33.8303],
     "stayDuration": "long",
-    "year": 2023
+    "year": 2023,
+    "past": true
   },
   {
     "location": "Aptos, CA",
     "coordinates": [-121.8806, 36.9772],
     "stayDuration": "short",
-    "year": 2023
+    "year": 2023,
+    "past": true
   },
   {
-    "location": "Shasta Lake, CA",
-    "coordinates": [-122.3708, 40.6807],
+    "location": "Redding, CA",
+    "coordinates": [-122.3917, 40.5865],
     "stayDuration": "short",
-    "year": 2023
+    "year": 2023,
+    "past": true
   },
   {
     "location": "Salem, OR",
     "coordinates": [-123.0351, 44.9429],
     "stayDuration": "short",
-    "year": 2023
+    "year": 2023,
+    "past": true
   },
   {
     "location": "Ephrata, WA",
     "coordinates": [-119.5537, 47.3126],
     "stayDuration": "short",
-    "year": 2023
+    "year": 2023,
+    "past": true
   },
   {
     "location": "Missoula, MT",
     "coordinates": [-113.9883, 46.8721],
     "stayDuration": "short",
-    "year": 2023
+    "year": 2023,
+    "past": true
   },
   {
     "location": "Havre, MT",
     "coordinates": [-109.6772, 48.549],
     "stayDuration": "short",
-    "year": 2023
+    "year": 2023,
+    "past": true
   },
   {
     "location": "Glendive, MT",
     "coordinates": [-104.7104, 47.1053],
     "stayDuration": "short",
-    "year": 2023
+    "year": 2023,
+    "past": false
   },
   {
     "location": "Grand Forks, ND",
     "coordinates": [-97.0329, 47.9253],
     "stayDuration": "short",
-    "year": 2023
+    "year": 2023,
+    "past": false
   },
   {
     "location": "Duluth, MN",
-    "coordinates": [-92.1005, 46.7867],
+    "coordinates": [-92.0105, 46.7867],
     "stayDuration": "long",
-    "year": 2023
+    "year": 2023,
+    "past": false
   },
   {
     "location": "Rochester, MN",
     "coordinates": [-92.4802, 44.0216],
     "stayDuration": "long",
-    "year": 2023
+    "year": 2023,
+    "past": false
+  },
+  {
+    "location": "Waupaca, WI",
+    "coordinates": [-89.0786, 44.3589],
+    "stayDuration": "short",
+    "year": 2023,
+    "past": false
+  },
+  {
+    "location": "Michigan City, IN",
+    "coordinates": [-86.895, 41.7075],
+    "stayDuration": "short",
+    "year": 2023,
+    "past": false
+  },
+  {
+    "location": "Akron, OH",
+    "coordinates": [-81.519, 41.0814],
+    "stayDuration": "short",
+    "year": 2023,
+    "past": false
+  },
+  {
+    "location": "Niagara Falls, NY",
+    "coordinates": [-79.0558, 43.0828],
+    "stayDuration": "short",
+    "year": 2023,
+    "past": false
+  },
+  {
+    "location": "Ithaca, NY",
+    "coordinates": [-76.5019, 42.443],
+    "stayDuration": "short",
+    "year": 2023,
+    "past": false
+  },
+  {
+    "location": "Lake Placid, NY",
+    "coordinates": [-73.979, 44.2795],
+    "stayDuration": "short",
+    "year": 2023,
+    "past": false
+  },
+  {
+    "location": "Stowe, VT",
+    "coordinates": [-72.6911, 44.4654],
+    "stayDuration": "short",
+    "year": 2023,
+    "past": false
+  },
+  {
+    "location": "Franconia, NH",
+    "coordinates": [-71.6814, 44.2047],
+    "stayDuration": "short",
+    "year": 2023,
+    "past": false
+  },
+  {
+    "location": "Ellsworth, ME",
+    "coordinates": [-68.4451, 44.5652],
+    "stayDuration": "short",
+    "year": 2023,
+    "past": false
+  },
+  {
+    "location": "Narragansett, RI",
+    "coordinates": [-71.4548, 41.4501],
+    "stayDuration": "short",
+    "year": 2023,
+    "past": false
+  },
+  {
+    "location": "Egg Harbor City, NJ",
+    "coordinates": [-74.6171, 39.5289],
+    "stayDuration": "short",
+    "year": 2023,
+    "past": false
+  },
+  {
+    "location": "Norfolk, VA",
+    "coordinates": [-76.2859, 36.8508],
+    "stayDuration": "long",
+    "year": 2023,
+    "past": false
   }
 ]
