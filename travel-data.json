@@ -4,6 +4,7 @@
     "coordinates": [-92.1005, 46.7867],
     "stayDuration": "long",
     "year": 2020,
+    "route": 1,
     "past": true
   },
   {
@@ -11,6 +12,7 @@
     "coordinates": [-117.3273, 33.6681],
     "stayDuration": "long",
     "year": 2020,
+    "route": 1,
     "past": true
   },
   {
@@ -18,6 +20,7 @@
     "coordinates": [-114.222, 33.6634],
     "stayDuration": "long",
     "year": 2021,
+    "route": 1,
     "past": true
   },
   {
@@ -25,6 +28,7 @@
     "coordinates": [-98.7028, 35.5262],
     "stayDuration": "short",
     "year": 2021,
+    "route": 1,
     "past": true
   },
   {
@@ -32,6 +36,7 @@
     "coordinates": [-92.0705, 46.7867],
     "stayDuration": "long",
     "year": 2021,
+    "route": 1,
     "past": true
   },
   {
@@ -39,6 +44,7 @@
     "coordinates": [-97.3923, 42.871],
     "stayDuration": "long",
     "year": 2021,
+    "route": 2,
     "past": true
   },
   {
@@ -46,6 +52,7 @@
     "coordinates": [-96.8018, 33.2367],
     "stayDuration": "long",
     "year": 2021,
+    "route": 2,
     "past": true
   },
   {
@@ -53,6 +60,7 @@
     "coordinates": [-94.7977, 29.3013],
     "stayDuration": "long",
     "year": 2021,
+    "route": 2,
     "past": true
   },
   {
@@ -60,6 +68,7 @@
     "coordinates": [-93.0552, 34.5037],
     "stayDuration": "long",
     "year": 2022,
+    "route": 2,
     "past": true
   },
   {
@@ -67,6 +76,7 @@
     "coordinates": [-99.7331, 32.4487],
     "stayDuration": "short",
     "year": 2022,
+    "route": 2,
     "past": true
   },
   {
@@ -74,6 +84,7 @@
     "coordinates": [-105.9603, 32.8995],
     "stayDuration": "short",
     "year": 2022,
+    "route": 2,
     "past": true
   },
   {
@@ -81,6 +92,7 @@
     "coordinates": [-111.3251, 34.2304],
     "stayDuration": "short",
     "year": 2022,
+    "route": 2,
     "past": true
   },
   {
@@ -88,6 +100,7 @@
     "coordinates": [-112.1155, 36.0544],
     "stayDuration": "short",
     "year": 2022,
+    "route": 2,
     "past": true
   },
   {
@@ -95,6 +108,7 @@
     "coordinates": [-113.191, 37.2006],
     "stayDuration": "short",
     "year": 2022,
+    "route": 2,
     "past": true
   },
   {
@@ -102,6 +116,7 @@
     "coordinates": [-109.7333, 38.5733],
     "stayDuration": "short",
     "year": 2022,
+    "route": 2,
     "past": true
   },
   {
@@ -109,6 +124,7 @@
     "coordinates": [-111.6585, 40.2338],
     "stayDuration": "short",
     "year": 2022,
+    "route": 2,
     "past": true
   },
   {
@@ -116,6 +132,7 @@
     "coordinates": [-116.2023, 43.6187],
     "stayDuration": "short",
     "year": 2022,
+    "route": 2,
     "past": true
   },
   {
@@ -123,6 +140,7 @@
     "coordinates": [-121.5217, 45.7054],
     "stayDuration": "long",
     "year": 2022,
+    "route": 2,
     "past": true
   },
   {
@@ -130,6 +148,7 @@
     "coordinates": [-123.8303, 46.1879],
     "stayDuration": "long",
     "year": 2022,
+    "route": 2,
     "past": true
   },
   {
@@ -137,6 +156,7 @@
     "coordinates": [-109.1985, 41.5875],
     "stayDuration": "short",
     "year": 2022,
+    "route": 2,
     "past": true
   },
   {
@@ -144,6 +164,7 @@
     "coordinates": [-102.7996, 44.1152],
     "stayDuration": "short",
     "year": 2022,
+    "route": 2,
     "past": true
   },
   {
@@ -151,6 +172,7 @@
     "coordinates": [-103.275, 44.1604],
     "stayDuration": "long",
     "year": 2022,
+    "route": 2,
     "past": true
   },
   {
@@ -158,6 +180,7 @@
     "coordinates": [-92.0405, 46.7867],
     "stayDuration": "long",
     "year": 2022,
+    "route": 2,
     "past": true
   },
   {
@@ -165,6 +188,7 @@
     "coordinates": [-88.3201, 41.7606],
     "stayDuration": "long",
     "year": 2022,
+    "route": 3,
     "past": true
   },
   {
@@ -172,6 +196,7 @@
     "coordinates": [-89.5182, 37.3059],
     "stayDuration": "short",
     "year": 2022,
+    "route": 3,
     "past": true
   },
   {
@@ -179,6 +204,7 @@
     "coordinates": [-90.0489, 35.1495],
     "stayDuration": "short",
     "year": 2022,
+    "route": 3,
     "past": true
   },
   {
@@ -186,6 +212,7 @@
     "coordinates": [-89.2973, 30.3089],
     "stayDuration": "short",
     "year": 2022,
+    "route": 3,
     "past": true
   },
   {
@@ -193,6 +220,7 @@
     "coordinates": [-98.4936, 29.4241],
     "stayDuration": "long",
     "year": 2023,
+    "route": 3,
     "past": true
   },
   {
@@ -200,6 +228,7 @@
     "coordinates": [-101.8781, 30.8949],
     "stayDuration": "short",
     "year": 2023,
+    "route": 3,
     "past": true
   },
   {
@@ -207,6 +236,7 @@
     "coordinates": [-106.4425, 31.7619],
     "stayDuration": "short",
     "year": 2023,
+    "route": 3,
     "past": true
   },
   {
@@ -214,6 +244,7 @@
     "coordinates": [-110.9265, 32.2217],
     "stayDuration": "short",
     "year": 2023,
+    "route": 3,
     "past": true
   },
   {
@@ -221,6 +252,7 @@
     "coordinates": [-116.5453, 33.8303],
     "stayDuration": "long",
     "year": 2023,
+    "route": 3,
     "past": true
   },
   {
@@ -228,6 +260,7 @@
     "coordinates": [-121.8806, 36.9772],
     "stayDuration": "short",
     "year": 2023,
+    "route": 3,
     "past": true
   },
   {
@@ -235,6 +268,7 @@
     "coordinates": [-122.3917, 40.5865],
     "stayDuration": "short",
     "year": 2023,
+    "route": 3,
     "past": true
   },
   {
@@ -242,6 +276,7 @@
     "coordinates": [-123.0351, 44.9429],
     "stayDuration": "short",
     "year": 2023,
+    "route": 3,
     "past": true
   },
   {
@@ -249,6 +284,7 @@
     "coordinates": [-119.5537, 47.3126],
     "stayDuration": "short",
     "year": 2023,
+    "route": 3,
     "past": true
   },
   {
@@ -256,6 +292,7 @@
     "coordinates": [-113.9883, 46.8721],
     "stayDuration": "short",
     "year": 2023,
+    "route": 3,
     "past": true
   },
   {
@@ -263,6 +300,7 @@
     "coordinates": [-109.6772, 48.549],
     "stayDuration": "short",
     "year": 2023,
+    "route": 3,
     "past": true
   },
   {
@@ -270,6 +308,7 @@
     "coordinates": [-104.7104, 47.1053],
     "stayDuration": "short",
     "year": 2023,
+    "route": 3,
     "past": false
   },
   {
@@ -277,6 +316,7 @@
     "coordinates": [-97.0329, 47.9253],
     "stayDuration": "short",
     "year": 2023,
+    "route": 3,
     "past": false
   },
   {
@@ -284,6 +324,7 @@
     "coordinates": [-92.0105, 46.7867],
     "stayDuration": "long",
     "year": 2023,
+    "route": 3,
     "past": false
   },
   {
@@ -291,6 +332,7 @@
     "coordinates": [-92.4802, 44.0216],
     "stayDuration": "long",
     "year": 2023,
+    "route": 4,
     "past": false
   },
   {
@@ -298,6 +340,7 @@
     "coordinates": [-89.0786, 44.3589],
     "stayDuration": "short",
     "year": 2023,
+    "route": 4,
     "past": false
   },
   {
@@ -305,6 +348,7 @@
     "coordinates": [-86.895, 41.7075],
     "stayDuration": "short",
     "year": 2023,
+    "route": 4,
     "past": false
   },
   {
@@ -312,6 +356,7 @@
     "coordinates": [-81.519, 41.0814],
     "stayDuration": "short",
     "year": 2023,
+    "route": 4,
     "past": false
   },
   {
@@ -319,6 +364,7 @@
     "coordinates": [-79.0558, 43.0828],
     "stayDuration": "short",
     "year": 2023,
+    "route": 4,
     "past": false
   },
   {
@@ -326,6 +372,7 @@
     "coordinates": [-76.5019, 42.443],
     "stayDuration": "short",
     "year": 2023,
+    "route": 4,
     "past": false
   },
   {
@@ -333,6 +380,7 @@
     "coordinates": [-73.979, 44.2795],
     "stayDuration": "short",
     "year": 2023,
+    "route": 4,
     "past": false
   },
   {
@@ -340,6 +388,7 @@
     "coordinates": [-72.6911, 44.4654],
     "stayDuration": "short",
     "year": 2023,
+    "route": 4,
     "past": false
   },
   {
@@ -347,6 +396,7 @@
     "coordinates": [-71.6814, 44.2047],
     "stayDuration": "short",
     "year": 2023,
+    "route": 4,
     "past": false
   },
   {
@@ -354,6 +404,7 @@
     "coordinates": [-68.4451, 44.5652],
     "stayDuration": "short",
     "year": 2023,
+    "route": 4,
     "past": false
   },
   {
@@ -361,6 +412,7 @@
     "coordinates": [-71.4548, 41.4501],
     "stayDuration": "short",
     "year": 2023,
+    "route": 4,
     "past": false
   },
   {
@@ -368,13 +420,31 @@
     "coordinates": [-74.6171, 39.5289],
     "stayDuration": "short",
     "year": 2023,
+    "route": 4,
     "past": false
   },
   {
-    "location": "Norfolk, VA",
-    "coordinates": [-76.2859, 36.8508],
+    "location": "Virginia Beach, VA",
+    "coordinates": [-75.978, 36.8529],
     "stayDuration": "long",
     "year": 2023,
+    "route": 4,
+    "past": false
+  },
+  {
+    "location": "Raleigh, NC",
+    "coordinates": [-78.6389, 35.7796],
+    "stayDuration": "short",
+    "year": 2023,
+    "route": 4,
+    "past": false
+  },
+  {
+    "location": "Asheville, NC",
+    "coordinates": [-82.5515, 35.5951],
+    "stayDuration": "long",
+    "year": 2023,
+    "route": 4,
     "past": false
   }
 ]

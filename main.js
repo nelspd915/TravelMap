@@ -23,6 +23,21 @@ function getColorByYear(year) {
   }
 }
 
+function getColorByRouteNumber(routeNumber) {
+  switch (routeNumber) {
+    case 1:
+      return "#555";
+    case 2:
+      return "#f54242";
+    case 3:
+      return "#4287f5";
+    case 4:
+      return "#00D100";
+    default:
+      return "#555";
+  }
+}
+
 async function addTravelDataToMap(map, travelData, routes) {
   const allRoutes = [];
 
@@ -42,7 +57,7 @@ async function addTravelDataToMap(map, travelData, routes) {
     markerElement.innerText = i + 1;
     markerElement.style.setProperty(
       "--color",
-      getColorByYear(destination.year)
+      getColorByRouteNumber(destination.route)
     );
     markerElement.style.setProperty(
       "--outlineColor",
@@ -90,7 +105,7 @@ async function addTravelDataToMap(map, travelData, routes) {
           }
         },
         paint: {
-          "line-color": getColorByYear(destination.year),
+          "line-color": getColorByRouteNumber(destination.route),
           "line-width": 4,
           "line-dasharray": destination.past ? [] : [2, 1]
         }
@@ -115,18 +130,36 @@ async function getDrivingRoute(origin, destination) {
 function createLegend() {
   const legend = document.getElementById("legend");
 
-  const years = [2023, 2022, 2021, 2020]; // Add more years as needed
+  const routeNumbers = [4, 3, 2, 1]; // Add more years as needed
 
-  years.forEach((year) => {
+  routeNumbers.forEach((routeNumber) => {
     const item = document.createElement("div");
     item.className = "legend-item";
 
     const color = document.createElement("div");
     color.className = "legend-color";
-    color.style.backgroundColor = getColorByYear(year);
+    color.style.backgroundColor = getColorByRouteNumber(routeNumber);
 
     const label = document.createElement("span");
-    label.innerText = year;
+
+    let yearRange = "";
+
+    switch (routeNumber) {
+      case 1:
+        yearRange = "2020-21";
+        break;
+      case 2:
+        yearRange = "2021-22";
+        break;
+      case 3:
+        yearRange = "2022-23";
+        break;
+      case 4:
+        yearRange = "2023-24";
+        break;
+    }
+
+    label.innerText = `Route ${routeNumber} (${yearRange})`;
 
     item.appendChild(color);
     item.appendChild(label);
