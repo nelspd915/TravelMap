@@ -1,6 +1,6 @@
 // Set your Mapbox access token
 mapboxgl.accessToken =
-  "pk.eyJ1IjoibmVsc2RhbmllbHNvbiIsImEiOiJjbGd1OG51YWIyM2lxM2RwOWRhOG1kYzM1In0._jwqytLACO-3fKkTlrfzVg";
+  "pk.eyJ1IjoibmVsc2RhbmllbHNvbiIsImEiOiJjbGd1OG5tanYwZHFvM2NsajM5cWkwbnFrIn0.z-KHXkPhO71F79tqvJksRA";
 
 // Initialize the map
 const map = new mapboxgl.Map({
