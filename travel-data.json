@@ -65,7 +65,7 @@
   {
     "location": "Abilene, TX",
     "coordinates": [-99.7331, 32.4487],
-    "stayDuration": "long",
+    "stayDuration": "short",
     "year": 2022,
     "past": true
   },
