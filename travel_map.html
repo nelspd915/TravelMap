@@ -2,6 +2,7 @@
   <meta charset="utf-8" />
   <title>Travel Map</title>
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+
   <link
     href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css"
     rel="stylesheet"
@@ -28,10 +29,9 @@
       align-items: center;
       font-weight: bold;
       color: white;
-      background-color: var(
-        --color
-      ); /* Use a CSS variable for the background color */
+      background-color: var(--color);
       border-radius: 4px;
+      border: 2px solid black; /* Add a border to the marker */
     }
 
     .circle {
