@@ -309,15 +309,15 @@
     "stayDuration": "short",
     "year": 2023,
     "route": 3,
-    "past": false
+    "past": true
   },
   {
-    "location": "Grand Forks, ND",
-    "coordinates": [-97.0329, 47.9253],
+    "location": "Hillsboro, ND",
+    "coordinates": [-97.0597, 47.4034],
     "stayDuration": "short",
     "year": 2023,
     "route": 3,
-    "past": false
+    "past": true
   },
   {
     "location": "Duluth, MN",
