@@ -325,7 +325,7 @@
     "stayDuration": "long",
     "year": 2023,
     "route": 3,
-    "past": false
+    "past": true
   },
   {
     "location": "Rochester, MN",
@@ -336,112 +336,24 @@
     "past": false
   },
   {
-    "location": "Waupaca, WI",
-    "coordinates": [-89.0786, 44.3589],
-    "stayDuration": "short",
-    "year": 2023,
-    "route": 4,
-    "past": false
-  },
-  {
-    "location": "Michigan City, IN",
-    "coordinates": [-86.895, 41.7075],
-    "stayDuration": "short",
-    "year": 2023,
-    "route": 4,
-    "past": false
-  },
-  {
-    "location": "Akron, OH",
-    "coordinates": [-81.519, 41.0814],
-    "stayDuration": "short",
-    "year": 2023,
-    "route": 4,
-    "past": false
-  },
-  {
-    "location": "Niagara Falls, NY",
-    "coordinates": [-79.0558, 43.0828],
-    "stayDuration": "short",
-    "year": 2023,
-    "route": 4,
-    "past": false
-  },
-  {
     "location": "Ithaca, NY",
     "coordinates": [-76.5019, 42.443],
-    "stayDuration": "short",
-    "year": 2023,
-    "route": 4,
-    "past": false
-  },
-  {
-    "location": "Lake Placid, NY",
-    "coordinates": [-73.979, 44.2795],
-    "stayDuration": "short",
-    "year": 2023,
-    "route": 4,
-    "past": false
-  },
-  {
-    "location": "Stowe, VT",
-    "coordinates": [-72.6911, 44.4654],
-    "stayDuration": "short",
-    "year": 2023,
-    "route": 4,
-    "past": false
-  },
-  {
-    "location": "Franconia, NH",
-    "coordinates": [-71.6814, 44.2047],
-    "stayDuration": "short",
-    "year": 2023,
-    "route": 4,
-    "past": false
-  },
-  {
-    "location": "Ellsworth, ME",
-    "coordinates": [-68.4451, 44.5652],
-    "stayDuration": "short",
-    "year": 2023,
-    "route": 4,
-    "past": false
-  },
-  {
-    "location": "Narragansett, RI",
-    "coordinates": [-71.4548, 41.4501],
-    "stayDuration": "short",
-    "year": 2023,
-    "route": 4,
-    "past": false
-  },
-  {
-    "location": "Egg Harbor City, NJ",
-    "coordinates": [-74.6171, 39.5289],
-    "stayDuration": "short",
-    "year": 2023,
-    "route": 4,
-    "past": false
-  },
-  {
-    "location": "Virginia Beach, VA",
-    "coordinates": [-75.978, 36.8529],
     "stayDuration": "long",
     "year": 2023,
     "route": 4,
     "past": false
   },
   {
-    "location": "Raleigh, NC",
-    "coordinates": [-78.6389, 35.7796],
-    "stayDuration": "short",
+    "location": "Knoxville, TN",
+    "coordinates": [-82.5515, 35.5951],
+    "stayDuration": "long",
     "year": 2023,
     "route": 4,
     "past": false
   },
   {
-    "location": "Asheville, NC",
-    "coordinates": [-82.5515, 35.5951],
+    "location": "Duluth, MN",
+    "coordinates": [-91.9805, 46.7867],
     "stayDuration": "long",
     "year": 2023,
     "route": 4,
