@@ -328,6 +328,14 @@
     "past": true
   },
   {
+    "location": "Iron River, WI",
+    "coordinates": [-91.4082, 46.5646],
+    "stayDuration": "long",
+    "year": 2023,
+    "route": 4,
+    "past": false
+  },
+  {
     "location": "Rochester, MN",
     "coordinates": [-92.4802, 44.0216],
     "stayDuration": "long",
