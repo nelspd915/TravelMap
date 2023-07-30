@@ -366,5 +366,45 @@
     "year": 2023,
     "route": 4,
     "past": false
+  },
+  {
+    "location": "Colorado Springs, CO",
+    "coordinates": [-104.8214, 38.8339],
+    "stayDuration": "long",
+    "year": 2024,
+    "route": 5,
+    "past": false
+  },
+  {
+    "location": "Denver, CO",
+    "coordinates": [-104.9903, 39.7392],
+    "stayDuration": "long",
+    "year": 2024,
+    "route": 5,
+    "past": false
+  },
+  {
+    "location": "Grand Junction, CO",
+    "coordinates": [-108.5506, 39.0639],
+    "stayDuration": "long",
+    "year": 2024,
+    "route": 5,
+    "past": false
+  },
+  {
+    "location": "St. George, UT",
+    "coordinates": [-113.5684, 37.0965],
+    "stayDuration": "long",
+    "year": 2024,
+    "route": 5,
+    "past": false
+  },
+  {
+    "location": "San Diego, CA",
+    "coordinates": [-117.1611, 32.7157],
+    "stayDuration": "long",
+    "year": 2024,
+    "route": 5,
+    "past": false
   }
 ]

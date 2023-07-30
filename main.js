@@ -10,19 +10,6 @@ const map = new mapboxgl.Map({
   zoom: 4 // Initial zoom level
 });
 
-function getColorByYear(year) {
-  switch (year) {
-    case 2021:
-      return "#4287f5";
-    case 2022:
-      return "#f54242";
-    case 2023:
-      return "#00D100";
-    default:
-      return "#555";
-  }
-}
-
 function getColorByRouteNumber(routeNumber) {
   switch (routeNumber) {
     case 1:
@@ -33,6 +20,8 @@ function getColorByRouteNumber(routeNumber) {
       return "#4287f5";
     case 4:
       return "#00D100";
+    case 5:
+      return "#c14ede";
     default:
       return "#555";
   }
@@ -130,7 +119,7 @@ async function getDrivingRoute(origin, destination) {
 function createLegend() {
   const legend = document.getElementById("legend");
 
-  const routeNumbers = [4, 3, 2, 1]; // Add more years as needed
+  const routeNumbers = [5, 4, 3, 2, 1]; // Add more years as needed
 
   routeNumbers.forEach((routeNumber) => {
     const item = document.createElement("div");
@@ -155,8 +144,10 @@ function createLegend() {
         yearRange = "2022-23";
         break;
       case 4:
-        yearRange = "2023-24";
+        yearRange = "2023";
         break;
+      case 5:
+        yearRange = "2024";
     }
 
     label.innerText = `Route ${routeNumber} (${yearRange})`;
