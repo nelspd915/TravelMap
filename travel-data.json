@@ -368,16 +368,16 @@
     "past": false
   },
   {
-    "location": "Colorado Springs, CO",
-    "coordinates": [-104.8214, 38.8339],
+    "location": "Dallas, TX",
+    "coordinates": [-96.797, 32.7767],
     "stayDuration": "long",
     "year": 2024,
     "route": 5,
     "past": false
   },
   {
-    "location": "Denver, CO",
-    "coordinates": [-104.9903, 39.7392],
+    "location": "Colorado Springs, CO",
+    "coordinates": [-104.8214, 38.8339],
     "stayDuration": "long",
     "year": 2024,
     "route": 5,
@@ -400,8 +400,8 @@
     "past": false
   },
   {
-    "location": "San Diego, CA",
-    "coordinates": [-117.1611, 32.7157],
+    "location": "Carson City, NV",
+    "coordinates": [-119.7674, 39.1638],
     "stayDuration": "long",
     "year": 2024,
     "route": 5,
