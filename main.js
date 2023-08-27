@@ -31,40 +31,45 @@ async function addTravelDataToMap(map, travelData, routes) {
   const allRoutes = [];
 
   // Iterate through the travel data
+  let destNumber = 0;
   for (let i = 0; i < travelData.length; i++) {
     const destination = travelData[i];
 
-    // Choose the marker symbol based on the stay duration
-    const markerSymbol =
-      destination.stayDuration === "short" ? "circle" : "square";
+    if (destination.location !== "ROUTE_PIN") {
+      // Choose the marker symbol based on the stay duration
+      const markerSymbol =
+        destination.stayDuration === "short" ? "circle" : "square";
 
-    // Create a new HTML element for the marker
-    const markerElement = document.createElement("div");
-    markerElement.className = `marker ${markerSymbol}`;
+      // Create a new HTML element for the marker
+      const markerElement = document.createElement("div");
+      markerElement.className = `marker ${markerSymbol}`;
 
-    // Add the point number as text inside the marker element
-    markerElement.innerText = i + 1;
-    markerElement.style.setProperty(
-      "--color",
-      getColorByRouteNumber(destination.route)
-    );
-    markerElement.style.setProperty(
-      "--outlineColor",
-      destination.past ? "#000" : "#fff"
-    );
+      // Add the point number as text inside the marker element
+      markerElement.innerText = destNumber + 1;
+      markerElement.style.setProperty(
+        "--color",
+        getColorByRouteNumber(destination.route)
+      );
+      markerElement.style.setProperty(
+        "--outlineColor",
+        destination.past ? "#000" : "#fff"
+      );
 
-    // Create a new Mapbox GL JS marker and add it to the map
-    const marker = new mapboxgl.Marker(markerElement)
-      .setLngLat(destination.coordinates)
-      .setPopup(
-        new mapboxgl.Popup({ offset: 25, closeButton: false }).setText(
-          destination.location
+      // Create a new Mapbox GL JS marker and add it to the map
+      const marker = new mapboxgl.Marker(markerElement)
+        .setLngLat(destination.coordinates)
+        .setPopup(
+          new mapboxgl.Popup({ offset: 25, closeButton: false }).setText(
+            destination.location
+          )
         )
-      )
-      .addTo(map);
+        .addTo(map);
 
-    markerElement.addEventListener("mouseenter", () => marker.togglePopup());
-    markerElement.addEventListener("mouseleave", () => marker.togglePopup());
+      markerElement.addEventListener("mouseenter", () => marker.togglePopup());
+      markerElement.addEventListener("mouseleave", () => marker.togglePopup());
+
+      destNumber += 1;
+    }
 
     // Add a line between the current destination and the previous one
     if (i > 0) {
