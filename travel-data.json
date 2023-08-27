@@ -40,6 +40,13 @@
     "past": true
   },
   {
+    "location": "ROUTE_PIN",
+    "coordinates": [-93.331647, 43.684903],
+    "route": 2,
+    "year": 2021,
+    "past": true
+  },
+  {
     "location": "Yankton, SD",
     "coordinates": [-97.3923, 42.871],
     "stayDuration": "long",
@@ -88,9 +95,30 @@
     "past": true
   },
   {
+    "location": "ROUTE_PIN",
+    "coordinates": [-106.8914, 34.0584],
+    "year": 2022,
+    "route": 2,
+    "past": true
+  },
+  {
     "location": "Payson, AZ",
     "coordinates": [-111.3251, 34.2304],
     "stayDuration": "short",
+    "year": 2022,
+    "route": 2,
+    "past": true
+  },
+  {
+    "location": "ROUTE_PIN",
+    "coordinates": [-111.4074, 34.7434],
+    "year": 2022,
+    "route": 2,
+    "past": true
+  },
+  {
+    "location": "ROUTE_PIN",
+    "coordinates": [-111.728, 35.2682],
     "year": 2022,
     "route": 2,
     "past": true
@@ -113,7 +141,7 @@
   },
   {
     "location": "Moab, UT",
-    "coordinates": [-109.7333, 38.5733],
+    "coordinates": [-109.550763, 38.576735],
     "stayDuration": "short",
     "year": 2022,
     "route": 2,
@@ -152,6 +180,20 @@
     "past": true
   },
   {
+    "location": "ROUTE_PIN",
+    "coordinates": [-123.814945, 46.36307],
+    "year": 2022,
+    "route": 2,
+    "past": true
+  },
+  {
+    "location": "ROUTE_PIN",
+    "coordinates": [-111.588316, 42.65463],
+    "year": 2022,
+    "route": 2,
+    "past": true
+  },
+  {
     "location": "Rock Springs, WY",
     "coordinates": [-109.1985, 41.5875],
     "stayDuration": "short",
@@ -171,6 +213,13 @@
     "location": "Black Hawk, SD",
     "coordinates": [-103.275, 44.1604],
     "stayDuration": "long",
+    "year": 2022,
+    "route": 2,
+    "past": true
+  },
+  {
+    "location": "ROUTE_PIN",
+    "coordinates": [-94.004898, 44.170043],
     "year": 2022,
     "route": 2,
     "past": true
@@ -225,7 +274,7 @@
   },
   {
     "location": "Fort Stockton, TX",
-    "coordinates": [-101.8781, 30.8949],
+    "coordinates": [-102.878021, 30.892998],
     "stayDuration": "short",
     "year": 2023,
     "route": 3,
@@ -256,9 +305,30 @@
     "past": true
   },
   {
+    "location": "ROUTE_PIN",
+    "coordinates": [-121.523689, 36.972777],
+    "year": 2023,
+    "route": 3,
+    "past": true
+  },
+  {
     "location": "Aptos, CA",
     "coordinates": [-121.8806, 36.9772],
     "stayDuration": "short",
+    "year": 2023,
+    "route": 3,
+    "past": true
+  },
+  {
+    "location": "ROUTE_PIN",
+    "coordinates": [-121.523689, 36.972777],
+    "year": 2023,
+    "route": 3,
+    "past": true
+  },
+  {
+    "location": "ROUTE_PIN",
+    "coordinates": [-121.090704, 37.254352],
     "year": 2023,
     "route": 3,
     "past": true
@@ -304,6 +374,13 @@
     "past": true
   },
   {
+    "location": "ROUTE_PIN",
+    "coordinates": [-106.909754, 47.312626],
+    "year": 2023,
+    "route": 3,
+    "past": true
+  },
+  {
     "location": "New Underwood, SD",
     "coordinates": [-102.8363, 44.0933],
     "stayDuration": "short",
@@ -312,9 +389,37 @@
     "past": true
   },
   {
+    "location": "ROUTE_PIN",
+    "coordinates": [-101.429182, 45.571147],
+    "year": 2023,
+    "route": 3,
+    "past": true
+  },
+  {
+    "location": "ROUTE_PIN",
+    "coordinates": [-101.33072, 46.283488],
+    "year": 2023,
+    "route": 3,
+    "past": true
+  },
+  {
+    "location": "ROUTE_PIN",
+    "coordinates": [-97.594804, 47.152258],
+    "year": 2023,
+    "route": 3,
+    "past": true
+  },
+  {
     "location": "Hillsboro, ND",
     "coordinates": [-97.0597, 47.4034],
     "stayDuration": "short",
+    "year": 2023,
+    "route": 3,
+    "past": true
+  },
+  {
+    "location": "ROUTE_PIN",
+    "coordinates": [-95.11127, 47.347072],
     "year": 2023,
     "route": 3,
     "past": true
@@ -331,6 +436,13 @@
     "location": "Ironwood, MI",
     "coordinates": [-90.171, 46.4547],
     "stayDuration": "long",
+    "year": 2023,
+    "route": 4,
+    "past": true
+  },
+  {
+    "location": "ROUTE_PIN",
+    "coordinates": [-92.0105, 46.7867],
     "year": 2023,
     "route": 4,
     "past": true
@@ -400,8 +512,24 @@
     "past": false
   },
   {
-    "location": "Carson City, NV",
-    "coordinates": [-119.7674, 39.1638],
+    "location": "Santa Fe, NM",
+    "coordinates": [-105.9378, 35.687],
+    "stayDuration": "long",
+    "year": 2024,
+    "route": 5,
+    "past": false
+  },
+  {
+    "location": "Manhattan, KS",
+    "coordinates": [-96.5717, 39.1836],
+    "stayDuration": "long",
+    "year": 2024,
+    "route": 5,
+    "past": false
+  },
+  {
+    "location": "Duluth, MN",
+    "coordinates": [-91.9805, 46.7867],
     "stayDuration": "long",
     "year": 2024,
     "route": 5,
