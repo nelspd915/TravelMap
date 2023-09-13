@@ -461,7 +461,7 @@
     "stayDuration": "long",
     "year": 2023,
     "route": 4,
-    "past": false
+    "past": true
   },
   {
     "location": "Asheville, NC",
