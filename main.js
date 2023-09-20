@@ -214,6 +214,51 @@ require([
     addMarkers(travelData);
   }
 
+  let hoverActive = false;
+  view.on("pointer-move", async function (event) {
+    // Use hitTest to check for graphics under the pointer
+    const hit = await view.hitTest(event);
+    const graphic = hit.results[0]?.graphic;
+
+    let targetGraphic = null;
+
+    // If a text label is detected, find the associated marker graphic
+    if (graphic?.symbol && graphic.symbol.type === "text") {
+      const nearbyHit = await view.hitTest({
+        x: event.x + 1,
+        y: event.y + 1
+      });
+      targetGraphic = nearbyHit.results.find(
+        (result) => result.graphic?.symbol?.type === "simple-marker"
+      ).graphic;
+    } else {
+      targetGraphic = graphic;
+    }
+
+    // If a marker is detected under the pointer, increase its size
+    if (
+      targetGraphic?.symbol &&
+      targetGraphic.symbol.type === "simple-marker"
+    ) {
+      const newSymbol = targetGraphic.symbol.clone();
+      newSymbol.size = "32px"; // Increased size
+      targetGraphic.symbol = newSymbol;
+      hoverActive = true;
+      console.log("SIZE");
+    } else if (hoverActive) {
+      // Reset the size of all graphics to the default size
+      view.graphics.forEach((g) => {
+        if (g.symbol && g.symbol.type === "simple-marker") {
+          const resetSymbol = g.symbol.clone();
+          resetSymbol.size = "25px";
+          g.symbol = resetSymbol;
+        }
+      });
+      hoverActive = false;
+      console.log("RESET");
+    }
+  });
+
   // Fetch the travel data and routes, then add them to the map
   view.when(async () => {
     const travelData = await (await fetch("./travel-data.json")).json();
