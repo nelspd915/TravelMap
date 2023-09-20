@@ -51,7 +51,7 @@ require([
 
   // 1. Logic to add markers using Esri graphics
   function addMarkers(travelData) {
-    travelData.forEach((destination) => {
+    travelData.forEach((destination, index) => {
       if (destination.location !== "ROUTE_PIN") {
         // Create a point geometry
         const point = new Point({
@@ -64,9 +64,9 @@ require([
           color: getColorByRouteNumber(destination.route),
           outline: {
             color: destination.past ? "#000" : "#fff",
-            width: 2
+            width: 1
           },
-          size: destination.stayDuration === "short" ? "10px" : "20px",
+          size: "25px",
           style: destination.stayDuration === "short" ? "circle" : "square"
         });
 
@@ -83,7 +83,28 @@ require([
           popupTemplate: popupTemplate
         });
 
+        // Add number label to the marker
+        const textSymbol = {
+          type: "text",
+          color: "#fff",
+          haloColor: "#000",
+          haloSize: "1px",
+          text: index + 1,
+          xoffset: 0,
+          yoffset: 0,
+          font: {
+            size: 12,
+            weight: "bold"
+          }
+        };
+
+        const labelGraphic = new Graphic({
+          geometry: point,
+          symbol: textSymbol
+        });
+
         view.graphics.add(markerGraphic);
+        view.graphics.add(labelGraphic);
       }
     });
   }
@@ -114,7 +135,7 @@ require([
       // Define a symbol for the route
       const routeSymbol = new SimpleLineSymbol({
         color: getColorByRouteNumber(currentDestination.route),
-        width: 4,
+        width: 3,
         style: currentDestination.past ? "solid" : "dash"
       });
 
@@ -181,8 +202,8 @@ require([
 
   // Logic to add markers and routes
   function addTravelDataToMap(travelData, routes) {
-    addMarkers(travelData);
     addRoutes(travelData, routes);
+    addMarkers(travelData);
   }
 
   // Fetch the travel data and routes, then add them to the map
