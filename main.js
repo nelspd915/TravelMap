@@ -151,11 +151,11 @@ require([
   }
 
   async function getDrivingRoute(origin, destination) {
-    // const url = `https://api.mapbox.com/directions/v5/mapbox/driving/${origin[0]},${origin[1]};${destination[0]},${destination[1]}?geometries=geojson&access_token=${mapboxgl.accessToken}`;
+    const url = `https://api.mapbox.com/directions/v5/mapbox/driving/${origin[0]},${origin[1]};${destination[0]},${destination[1]}?geometries=geojson&access_token=${mapboxgl.accessToken}`;
 
-    // const response = await fetch(url);
-    // const data = await response.json();
-    // return data.routes[0].geometry.coordinates;
+    const response = await fetch(url);
+    const data = await response.json();
+    return data.routes[0].geometry.coordinates;
     return undefined;
   }
 
