@@ -22,7 +22,7 @@ require([
 
   // Initialize the Esri map
   const map = new Map({
-    basemap: "streets"
+    basemap: "topo-vector"
   });
 
   const view = new MapView({
@@ -51,7 +51,8 @@ require([
 
   // 1. Logic to add markers using Esri graphics
   function addMarkers(travelData) {
-    travelData.forEach((destination, index) => {
+    let destNumber = 1;
+    travelData.forEach((destination) => {
       if (destination.location !== "ROUTE_PIN") {
         // Create a point geometry
         const point = new Point({
@@ -87,13 +88,11 @@ require([
         const textSymbol = {
           type: "text",
           color: "#fff",
-          haloColor: "#000",
-          haloSize: "1px",
-          text: index + 1,
+          text: destNumber,
           xoffset: 0,
-          yoffset: 0,
+          yoffset: -4, // Adjusted y-offset for better vertical centering
           font: {
-            size: 12,
+            size: 10,
             weight: "bold"
           }
         };
@@ -102,6 +101,8 @@ require([
           geometry: point,
           symbol: textSymbol
         });
+
+        destNumber += 1;
 
         view.graphics.add(markerGraphic);
         view.graphics.add(labelGraphic);
