@@ -214,7 +214,7 @@ require([
     addMarkers(travelData);
   }
 
-  let hoverActive = false;
+  let currentlyHoveredGraphic = null;
   view.on("pointer-move", async function (event) {
     // Use hitTest to check for graphics under the pointer
     const hit = await view.hitTest(event);
@@ -240,12 +240,14 @@ require([
       targetGraphic?.symbol &&
       targetGraphic.symbol.type === "simple-marker"
     ) {
-      const newSymbol = targetGraphic.symbol.clone();
-      newSymbol.size = "32px"; // Increased size
-      targetGraphic.symbol = newSymbol;
-      hoverActive = true;
-      console.log("SIZE");
-    } else if (hoverActive) {
+      if (currentlyHoveredGraphic !== targetGraphic) {
+        const newSymbol = targetGraphic.symbol.clone();
+        newSymbol.size = "32px"; // Increased size
+        targetGraphic.symbol = newSymbol;
+        currentlyHoveredGraphic = targetGraphic;
+        console.log("SIZE");
+      }
+    } else if (currentlyHoveredGraphic) {
       // Reset the size of all graphics to the default size
       view.graphics.forEach((g) => {
         if (g.symbol && g.symbol.type === "simple-marker") {
@@ -254,7 +256,7 @@ require([
           g.symbol = resetSymbol;
         }
       });
-      hoverActive = false;
+      currentlyHoveredGraphic = null;
       console.log("RESET");
     }
   });
