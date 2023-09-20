@@ -111,6 +111,8 @@ require([
   }
 
   async function addRoutes(travelData, routes) {
+    const allRoutes = [];
+
     for (let i = 1; i < travelData.length; i++) {
       const previousDestination = travelData[i - 1];
       const currentDestination = travelData[i];
@@ -146,17 +148,22 @@ require([
         symbol: routeSymbol
       });
 
+      allRoutes.push(routeCoordinates);
+
       view.graphics.add(routeGraphic);
     }
+
+    console.log("Routes: ", JSON.stringify(allRoutes));
   }
 
   async function getDrivingRoute(origin, destination) {
-    const url = `https://api.mapbox.com/directions/v5/mapbox/driving/${origin[0]},${origin[1]};${destination[0]},${destination[1]}?geometries=geojson&access_token=${mapboxgl.accessToken}`;
+    const url = `https://api.mapbox.com/directions/v5/mapbox/driving/${origin[0]},${origin[1]};${destination[0]},${destination[1]}?geometries=geojson&access_token=${mapBoxToken}`;
 
     const response = await fetch(url);
     const data = await response.json();
+
+    console.warn(`API route request from ${origin} to ${destination}`);
     return data.routes[0].geometry.coordinates;
-    return undefined;
   }
 
   function createLegend() {
