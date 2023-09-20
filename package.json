@@ -1,0 +1,8 @@
+{
+  "name": "travel-map",
+  "version": "1.0.0",
+  "main": "main.js",
+  "repository": "https://github.com/nelspd915/TravelMap.git",
+  "author": "Nels <nelspd915@gmail.com>",
+  "license": "MIT"
+}
