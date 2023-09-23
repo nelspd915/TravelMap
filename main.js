@@ -22,6 +22,8 @@ function getColorByRouteNumber(routeNumber) {
       return "#00D100";
     case 5:
       return "#c14ede";
+    case 6:
+      return "#ffae00";
     default:
       return "#555";
   }
@@ -124,7 +126,7 @@ async function getDrivingRoute(origin, destination) {
 function createLegend() {
   const legend = document.getElementById("legend");
 
-  const routeNumbers = [5, 4, 3, 2, 1]; // Add more years as needed
+  const routeNumbers = [6, 5, 4, 3, 2, 1]; // Add more routes as needed
 
   routeNumbers.forEach((routeNumber) => {
     const item = document.createElement("div");
@@ -153,6 +155,10 @@ function createLegend() {
         break;
       case 5:
         yearRange = "2024";
+        break;
+      case 6:
+        yearRange = "2024-25";
+        break;
     }
 
     label.innerText = `Route ${routeNumber} (${yearRange})`;

@@ -534,5 +534,53 @@
     "year": 2024,
     "route": 5,
     "past": false
+  },
+  {
+    "location": "Pittsburgh, PA",
+    "coordinates": [-79.9959, 40.4406],
+    "stayDuration": "long",
+    "year": 2024,
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "New York, NY",
+    "coordinates": [-74.006, 40.7128],
+    "stayDuration": "long",
+    "year": 2024,
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Portland, ME",
+    "coordinates": [-70.2568, 43.6591],
+    "stayDuration": "long",
+    "year": 2024,
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Burlington, VT",
+    "coordinates": [-73.2121, 44.4759],
+    "stayDuration": "long",
+    "year": 2024,
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Charleston, SC",
+    "coordinates": [-79.9311, 32.7765],
+    "stayDuration": "long",
+    "year": 2024,
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Miami, FL",
+    "coordinates": [-80.1918, 25.7617],
+    "stayDuration": "long",
+    "year": 2024,
+    "route": 6,
+    "past": false
   }
 ]
