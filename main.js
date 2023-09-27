@@ -23,7 +23,7 @@ function getColorByRouteNumber(routeNumber) {
     case 5:
       return "#c14ede";
     case 6:
-      return "#ffae00";
+      return "#ff911c";
     default:
       return "#555";
   }
