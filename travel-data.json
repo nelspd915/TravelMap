@@ -583,10 +583,58 @@
     "past": false
   },
   {
+    "location": "St. Augustine, FL",
+    "coordinates": [-81.3139, 29.8922],
+    "stayDuration": "long",
+    "year": 2024,
+    "route": 6,
+    "past": false
+  },
+  {
     "location": "Miami, FL",
     "coordinates": [-80.1918, 25.7617],
     "stayDuration": "long",
-    "year": 2024,
+    "year": 2025,
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Clearwater, FL",
+    "coordinates": [-82.7959, 27.9656],
+    "stayDuration": "long",
+    "year": 2025,
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Lafayette, LA",
+    "coordinates": [-92.0198, 30.2241],
+    "stayDuration": "long",
+    "year": 2025,
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Huntsville, AL",
+    "coordinates": [-86.5861, 34.7304],
+    "stayDuration": "long",
+    "year": 2025,
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Lake Ozark, MO",
+    "coordinates": [-92.6388, 38.1986],
+    "stayDuration": "long",
+    "year": 2025,
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Duluth, MN",
+    "coordinates": [-91.9505, 46.7867],
+    "stayDuration": "long",
+    "year": 2025,
     "route": 6,
     "past": false
   }
