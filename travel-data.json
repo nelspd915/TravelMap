@@ -1,9 +1,12 @@
 [
   {
     "location": "Duluth, MN",
-    "coordinates": [-92.1005, 46.7867],
+    "coordinates": [-92.1, 46.7867],
+    "customMarkerCoords": [-92.1, 46.7867],
     "stayDuration": "long",
     "year": 2020,
+    "arrive": "Hometown",
+    "depart": "Sep 26, 2020",
     "route": 1,
     "past": true
   },
@@ -12,6 +15,8 @@
     "coordinates": [-117.3273, 33.6681],
     "stayDuration": "long",
     "year": 2020,
+    "arrive": "Sep 30, 2020",
+    "depart": "Feb 7, 2021",
     "route": 1,
     "past": true
   },
@@ -20,6 +25,8 @@
     "coordinates": [-114.222, 33.6634],
     "stayDuration": "long",
     "year": 2021,
+    "arrive": "Feb 7, 2021",
+    "depart": "May 22, 2021",
     "route": 1,
     "past": true
   },
@@ -28,14 +35,19 @@
     "coordinates": [-98.7028, 35.5262],
     "stayDuration": "short",
     "year": 2021,
+    "arrive": "May 23, 2021",
+    "depart": "May 29, 2021",
     "route": 1,
     "past": true
   },
   {
     "location": "Duluth, MN",
-    "coordinates": [-92.0705, 46.7867],
+    "coordinates": [-92.1, 46.7867],
+    "customMarkerCoords": [-92.06, 46.7867],
     "stayDuration": "long",
     "year": 2021,
+    "arrive": "May 30, 2021",
+    "depart": "Aug 22, 2021",
     "route": 1,
     "past": true
   },
@@ -51,6 +63,8 @@
     "coordinates": [-97.3923, 42.871],
     "stayDuration": "long",
     "year": 2021,
+    "arrive": "Aug 22, 2021",
+    "depart": "Sep 18, 2021",
     "route": 2,
     "past": true
   },
@@ -59,6 +73,8 @@
     "coordinates": [-96.8018, 33.2367],
     "stayDuration": "long",
     "year": 2021,
+    "arrive": "Sep 19, 2021",
+    "depart": "Oct 16, 2021",
     "route": 2,
     "past": true
   },
@@ -67,6 +83,8 @@
     "coordinates": [-94.7977, 29.3013],
     "stayDuration": "long",
     "year": 2021,
+    "arrive": "Oct 16, 2021",
+    "depart": "Jan 8, 2022",
     "route": 2,
     "past": true
   },
@@ -75,6 +93,8 @@
     "coordinates": [-93.0552, 34.5037],
     "stayDuration": "long",
     "year": 2022,
+    "arrive": "Jan 8, 2022",
+    "depart": "Feb 6, 2022",
     "route": 2,
     "past": true
   },
@@ -83,6 +103,8 @@
     "coordinates": [-99.7331, 32.4487],
     "stayDuration": "short",
     "year": 2022,
+    "arrive": "Feb 6, 2022",
+    "depart": "Feb 13, 2022",
     "route": 2,
     "past": true
   },
@@ -91,6 +113,8 @@
     "coordinates": [-105.9603, 32.8995],
     "stayDuration": "short",
     "year": 2022,
+    "arrive": "Feb 13, 2022",
+    "depart": "Feb 20, 2022",
     "route": 2,
     "past": true
   },
@@ -106,6 +130,8 @@
     "coordinates": [-111.3251, 34.2304],
     "stayDuration": "short",
     "year": 2022,
+    "arrive": "Feb 20, 2022",
+    "depart": "Feb 27, 2022",
     "route": 2,
     "past": true
   },
@@ -128,6 +154,8 @@
     "coordinates": [-112.1155, 36.0544],
     "stayDuration": "short",
     "year": 2022,
+    "arrive": "Feb 27, 2022",
+    "depart": "Mar 6, 2022",
     "route": 2,
     "past": true
   },
@@ -136,6 +164,8 @@
     "coordinates": [-113.191, 37.2006],
     "stayDuration": "short",
     "year": 2022,
+    "arrive": "Mar 6, 2022",
+    "depart": "Mar 13, 2022",
     "route": 2,
     "past": true
   },
@@ -144,6 +174,8 @@
     "coordinates": [-109.550763, 38.576735],
     "stayDuration": "short",
     "year": 2022,
+    "arrive": "Mar 13, 2022",
+    "depart": "Mar 20, 2022",
     "route": 2,
     "past": true
   },
@@ -152,6 +184,8 @@
     "coordinates": [-111.6585, 40.2338],
     "stayDuration": "short",
     "year": 2022,
+    "arrive": "Mar 20, 2022",
+    "depart": "Mar 27, 2022",
     "route": 2,
     "past": true
   },
@@ -160,6 +194,8 @@
     "coordinates": [-116.2023, 43.6187],
     "stayDuration": "short",
     "year": 2022,
+    "arrive": "Mar 27, 2022",
+    "depart": "Apr 4, 2022",
     "route": 2,
     "past": true
   },
@@ -168,6 +204,8 @@
     "coordinates": [-121.5217, 45.7054],
     "stayDuration": "long",
     "year": 2022,
+    "arrive": "Apr 4, 2022",
+    "depart": "May 1, 2022",
     "route": 2,
     "past": true
   },
@@ -176,6 +214,8 @@
     "coordinates": [-123.8303, 46.1879],
     "stayDuration": "long",
     "year": 2022,
+    "arrive": "May 1, 2022",
+    "depart": "May 28, 2022",
     "route": 2,
     "past": true
   },
@@ -198,6 +238,8 @@
     "coordinates": [-109.1985, 41.5875],
     "stayDuration": "short",
     "year": 2022,
+    "arrive": "May 30, 2022",
+    "depart": "Jun 18, 2022",
     "route": 2,
     "past": true
   },
@@ -206,6 +248,8 @@
     "coordinates": [-102.7996, 44.1152],
     "stayDuration": "short",
     "year": 2022,
+    "arrive": "Jun 19, 2022",
+    "depart": "Jul 3, 2022",
     "route": 2,
     "past": true
   },
@@ -214,6 +258,8 @@
     "coordinates": [-103.275, 44.1604],
     "stayDuration": "long",
     "year": 2022,
+    "arrive": "Jul 3, 2022",
+    "depart": "Jul 30, 2022",
     "route": 2,
     "past": true
   },
@@ -226,9 +272,12 @@
   },
   {
     "location": "Duluth, MN",
-    "coordinates": [-92.0405, 46.7867],
+    "coordinates": [-92.1, 46.7867],
+    "customMarkerCoords": [-92.02, 46.7867],
     "stayDuration": "long",
     "year": 2022,
+    "arrive": "Jul 31, 2022",
+    "depart": "Nov 4, 2022",
     "route": 2,
     "past": true
   },
@@ -237,6 +286,8 @@
     "coordinates": [-88.3201, 41.7606],
     "stayDuration": "long",
     "year": 2022,
+    "arrive": "Nov 4, 2022",
+    "depart": "Dec 4, 2022",
     "route": 3,
     "past": true
   },
@@ -245,6 +296,8 @@
     "coordinates": [-89.5182, 37.3059],
     "stayDuration": "short",
     "year": 2022,
+    "arrive": "Dec 4, 2022",
+    "depart": "Dec 14, 2022",
     "route": 3,
     "past": true
   },
@@ -253,6 +306,8 @@
     "coordinates": [-90.0489, 35.1495],
     "stayDuration": "short",
     "year": 2022,
+    "arrive": "Dec 14, 2022",
+    "depart": "Dec 17, 2022",
     "route": 3,
     "past": true
   },
@@ -261,6 +316,8 @@
     "coordinates": [-89.2973, 30.3089],
     "stayDuration": "short",
     "year": 2022,
+    "arrive": "Dec 17, 2022",
+    "depart": "Dec 31, 2022",
     "route": 3,
     "past": true
   },
@@ -269,6 +326,8 @@
     "coordinates": [-98.4936, 29.4241],
     "stayDuration": "long",
     "year": 2023,
+    "arrive": "Jan 1, 2023",
+    "depart": "Jan 28, 2023",
     "route": 3,
     "past": true
   },
@@ -277,6 +336,8 @@
     "coordinates": [-102.878021, 30.892998],
     "stayDuration": "short",
     "year": 2023,
+    "arrive": "Jan 28, 2023",
+    "depart": "Feb 4, 2023",
     "route": 3,
     "past": true
   },
@@ -285,6 +346,8 @@
     "coordinates": [-106.4425, 31.7619],
     "stayDuration": "short",
     "year": 2023,
+    "arrive": "Feb 4, 2023",
+    "depart": "Feb 11, 2023",
     "route": 3,
     "past": true
   },
@@ -293,6 +356,8 @@
     "coordinates": [-110.9265, 32.2217],
     "stayDuration": "short",
     "year": 2023,
+    "arrive": "Feb 11, 2023",
+    "depart": "Feb 18, 2023",
     "route": 3,
     "past": true
   },
@@ -301,6 +366,8 @@
     "coordinates": [-116.5453, 33.8303],
     "stayDuration": "long",
     "year": 2023,
+    "arrive": "Feb 18, 2023",
+    "depart": "Mar 18, 2023",
     "route": 3,
     "past": true
   },
@@ -316,6 +383,8 @@
     "coordinates": [-121.8806, 36.9772],
     "stayDuration": "short",
     "year": 2023,
+    "arrive": "Mar 18, 2023",
+    "depart": "Mar 25, 2023",
     "route": 3,
     "past": true
   },
@@ -338,6 +407,8 @@
     "coordinates": [-122.3917, 40.5865],
     "stayDuration": "short",
     "year": 2023,
+    "arrive": "Mar 25, 2023",
+    "depart": "Apr 1, 2023",
     "route": 3,
     "past": true
   },
@@ -346,6 +417,8 @@
     "coordinates": [-123.0351, 44.9429],
     "stayDuration": "short",
     "year": 2023,
+    "arrive": "Apr 1, 2023",
+    "depart": "Apr 8, 2023",
     "route": 3,
     "past": true
   },
@@ -354,6 +427,8 @@
     "coordinates": [-119.5537, 47.3126],
     "stayDuration": "short",
     "year": 2023,
+    "arrive": "Apr 8, 2023",
+    "depart": "Apr 15, 2023",
     "route": 3,
     "past": true
   },
@@ -362,6 +437,8 @@
     "coordinates": [-113.9883, 46.8721],
     "stayDuration": "short",
     "year": 2023,
+    "arrive": "Apr 15, 2023",
+    "depart": "Apr 22, 2023",
     "route": 3,
     "past": true
   },
@@ -370,6 +447,8 @@
     "coordinates": [-109.6772, 48.549],
     "stayDuration": "short",
     "year": 2023,
+    "arrive": "Apr 22, 2023",
+    "depart": "Apr 29, 2023",
     "route": 3,
     "past": true
   },
@@ -385,6 +464,8 @@
     "coordinates": [-102.8363, 44.0933],
     "stayDuration": "short",
     "year": 2023,
+    "arrive": "Apr 29, 2023",
+    "depart": "May 6, 2023",
     "route": 3,
     "past": true
   },
@@ -414,6 +495,8 @@
     "coordinates": [-97.0597, 47.4034],
     "stayDuration": "short",
     "year": 2023,
+    "arrive": "May 6, 2023",
+    "depart": "May 13, 2023",
     "route": 3,
     "past": true
   },
@@ -426,9 +509,12 @@
   },
   {
     "location": "Duluth, MN",
-    "coordinates": [-92.0105, 46.7867],
+    "coordinates": [-92.1, 46.7867],
+    "customMarkerCoords": [-91.98, 46.7867],
     "stayDuration": "long",
     "year": 2023,
+    "arrive": "May 13, 2023",
+    "depart": "Jun 4, 2023",
     "route": 3,
     "past": true
   },
@@ -437,13 +523,19 @@
     "coordinates": [-90.171, 46.4547],
     "stayDuration": "long",
     "year": 2023,
+    "arrive": "Jun 4, 2023",
+    "depart": "Jul 1, 2023",
     "route": 4,
     "past": true
   },
   {
-    "location": "ROUTE_PIN",
-    "coordinates": [-92.0105, 46.7867],
+    "location": "Duluth, MN",
+    "coordinates": [-92.1, 46.7867],
+    "customMarkerCoords": [-91.94, 46.7867],
+    "stayDuration": "short",
     "year": 2023,
+    "arrive": "Jul 1, 2023",
+    "depart": "Jun 5, 2023",
     "route": 4,
     "past": true
   },
@@ -452,6 +544,8 @@
     "coordinates": [-92.4802, 44.0216],
     "stayDuration": "long",
     "year": 2023,
+    "arrive": "Jul 5, 2023",
+    "depart": "Sep 9, 2023",
     "route": 4,
     "past": true
   },
@@ -460,6 +554,8 @@
     "coordinates": [-76.5019, 42.443],
     "stayDuration": "long",
     "year": 2023,
+    "arrive": "Sep 9, 2023",
+    "depart": "Oct 14, 2023",
     "route": 4,
     "past": true
   },
@@ -468,14 +564,18 @@
     "coordinates": [-82.5515, 35.5951],
     "stayDuration": "long",
     "year": 2023,
+    "arrive": "Oct 15, 2023",
+    "depart": "Nov 11, 2023",
     "route": 4,
     "past": false
   },
   {
-    "location": "Garrison, MN",
-    "coordinates": [-93.8269, 46.2944],
+    "location": "Aitkin, MN",
+    "coordinates": [-93.7102, 46.533],
     "stayDuration": "long",
     "year": 2023,
+    "arrive": "Nov 12, 2023",
+    "depart": "Dec 30, 2023",
     "route": 4,
     "past": false
   },
@@ -484,6 +584,8 @@
     "coordinates": [-96.797, 32.7767],
     "stayDuration": "long",
     "year": 2024,
+    "arrive": "Dec 31, 2023",
+    "depart": "Jan 27, 2024",
     "route": 5,
     "past": false
   },
@@ -492,6 +594,8 @@
     "coordinates": [-104.8214, 38.8339],
     "stayDuration": "long",
     "year": 2024,
+    "arrive": "Jan 28, 2024",
+    "depart": "Feb 24, 2024",
     "route": 5,
     "past": false
   },
@@ -500,6 +604,8 @@
     "coordinates": [-108.5506, 39.0639],
     "stayDuration": "long",
     "year": 2024,
+    "arrive": "Feb 24, 2024",
+    "depart": "Mar 24, 2024",
     "route": 5,
     "past": false
   },
@@ -508,6 +614,8 @@
     "coordinates": [-115.1391, 36.1716],
     "stayDuration": "long",
     "year": 2024,
+    "arrive": "Mar 24, 2024",
+    "depart": "Apr 20, 2024",
     "route": 5,
     "past": false
   },
@@ -516,6 +624,8 @@
     "coordinates": [-105.9378, 35.687],
     "stayDuration": "long",
     "year": 2024,
+    "arrive": "Apr 21, 2024",
+    "depart": "May 18, 2024",
     "route": 5,
     "past": false
   },
@@ -524,14 +634,19 @@
     "coordinates": [-96.5717, 39.1836],
     "stayDuration": "long",
     "year": 2024,
+    "arrive": "May 19, 2024",
+    "depart": "Jun 15, 2024",
     "route": 5,
     "past": false
   },
   {
     "location": "Duluth, MN",
-    "coordinates": [-91.9805, 46.7867],
+    "coordinates": [-92.1, 46.7867],
+    "customMarkerCoords": [-91.9, 46.7867],
     "stayDuration": "long",
     "year": 2024,
+    "arrive": "Jun 16, 2024",
+    "depart": "Jul 14, 2024",
     "route": 5,
     "past": false
   },
@@ -540,6 +655,8 @@
     "coordinates": [-89.4008, 43.0722],
     "stayDuration": "long",
     "year": 2024,
+    "arrive": "Jul 14, 2024",
+    "depart": "Aug 10, 2024",
     "route": 6,
     "past": false
   },
@@ -548,6 +665,8 @@
     "coordinates": [-79.9959, 40.4406],
     "stayDuration": "long",
     "year": 2024,
+    "arrive": "Aug 11, 2024",
+    "depart": "Sep 7, 2024",
     "route": 6,
     "past": false
   },
@@ -556,6 +675,8 @@
     "coordinates": [-73.2121, 44.4759],
     "stayDuration": "long",
     "year": 2024,
+    "arrive": "Sep 8, 2024",
+    "depart": "Oct 13, 2024",
     "route": 6,
     "past": false
   },
@@ -571,6 +692,8 @@
     "coordinates": [-70.2568, 43.6591],
     "stayDuration": "long",
     "year": 2024,
+    "arrive": "Oct 13, 2024",
+    "depart": "Nov 10, 2024",
     "route": 6,
     "past": false
   },
@@ -579,6 +702,8 @@
     "coordinates": [-70.6673, 41.9584],
     "stayDuration": "long",
     "year": 2024,
+    "arrive": "Nov 10, 2024",
+    "depart": "Dec 8, 2024",
     "route": 6,
     "past": false
   },
@@ -587,6 +712,8 @@
     "coordinates": [-74.006, 40.7128],
     "stayDuration": "long",
     "year": 2024,
+    "arrive": "Dec 8, 2024",
+    "depart": "Jan 4, 2025",
     "route": 6,
     "past": false
   },
@@ -595,6 +722,8 @@
     "coordinates": [-79.9311, 32.7765],
     "stayDuration": "long",
     "year": 2024,
+    "arrive": "Jan 5, 2025",
+    "depart": "Feb 2, 2025",
     "route": 6,
     "past": false
   },
@@ -603,6 +732,8 @@
     "coordinates": [-81.3139, 29.8922],
     "stayDuration": "long",
     "year": 2024,
+    "arrive": "Feb 2, 2025",
+    "depart": "Mar 2, 2025",
     "route": 6,
     "past": false
   },
@@ -611,6 +742,8 @@
     "coordinates": [-80.1918, 25.7617],
     "stayDuration": "long",
     "year": 2025,
+    "arrive": "Mar 2, 2025",
+    "depart": "Mar 29, 2025",
     "route": 6,
     "past": false
   },
@@ -619,6 +752,8 @@
     "coordinates": [-92.0198, 30.2241],
     "stayDuration": "long",
     "year": 2025,
+    "arrive": "Mar 30, 2025",
+    "depart": "Apr 26, 2025",
     "route": 6,
     "past": false
   },
@@ -627,14 +762,19 @@
     "coordinates": [-92.6388, 38.1986],
     "stayDuration": "long",
     "year": 2025,
+    "arrive": "Apr 27, 2025",
+    "depart": "May 24, 2025",
     "route": 6,
     "past": false
   },
   {
     "location": "Duluth, MN",
-    "coordinates": [-91.9505, 46.7867],
+    "coordinates": [-92.1, 46.7867],
+    "customMarkerCoords": [-91.86, 46.7867],
     "stayDuration": "long",
     "year": 2025,
+    "arrive": "May 25, 2025",
+    "depart": "Jun 21, 2025",
     "route": 6,
     "past": false
   }

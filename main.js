@@ -59,10 +59,17 @@ async function addTravelDataToMap(map, travelData, routes) {
 
       // Create a new Mapbox GL JS marker and add it to the map
       const marker = new mapboxgl.Marker(markerElement)
-        .setLngLat(destination.coordinates)
+        .setLngLat(destination.customMarkerCoords ?? destination.coordinates)
         .setPopup(
-          new mapboxgl.Popup({ offset: 25, closeButton: false }).setText(
-            destination.location
+          new mapboxgl.Popup({
+            offset: 25,
+            closeButton: false
+          }).setHTML(
+            `
+              <h3 class="popup-text">${destination.location}</h3>
+              <p class="popup-text">Arrive: ${destination.arrive}</p>
+              <p class="popup-text">Depart: ${destination.depart}</p>
+            `
           )
         )
         .addTo(map);
