@@ -536,16 +536,16 @@
     "past": false
   },
   {
-    "location": "Pittsburgh, PA",
-    "coordinates": [-79.9959, 40.4406],
+    "location": "Madison, WI",
+    "coordinates": [-89.4008, 43.0722],
     "stayDuration": "long",
     "year": 2024,
     "route": 6,
     "past": false
   },
   {
-    "location": "New York, NY",
-    "coordinates": [-74.006, 40.7128],
+    "location": "Pittsburgh, PA",
+    "coordinates": [-79.9959, 40.4406],
     "stayDuration": "long",
     "year": 2024,
     "route": 6,
@@ -560,6 +560,13 @@
     "past": false
   },
   {
+    "location": "ROUTE_PIN",
+    "coordinates": [-71.554207, 44.044158],
+    "year": 2024,
+    "route": 6,
+    "past": false
+  },
+  {
     "location": "Portland, ME",
     "coordinates": [-70.2568, 43.6591],
     "stayDuration": "long",
@@ -568,8 +575,17 @@
     "past": false
   },
   {
-    "location": "ROUTE_PIN",
-    "coordinates": [-71.4128, 41.824],
+    "location": "Plymouth, MA",
+    "coordinates": [-70.6673, 41.9584],
+    "stayDuration": "long",
+    "year": 2024,
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "New York, NY",
+    "coordinates": [-74.006, 40.7128],
+    "stayDuration": "long",
     "year": 2024,
     "route": 6,
     "past": false
@@ -599,24 +615,8 @@
     "past": false
   },
   {
-    "location": "Clearwater, FL",
-    "coordinates": [-82.7959, 27.9656],
-    "stayDuration": "long",
-    "year": 2025,
-    "route": 6,
-    "past": false
-  },
-  {
     "location": "Lafayette, LA",
     "coordinates": [-92.0198, 30.2241],
-    "stayDuration": "long",
-    "year": 2025,
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "Huntsville, AL",
-    "coordinates": [-86.5861, 34.7304],
     "stayDuration": "long",
     "year": 2025,
     "route": 6,
