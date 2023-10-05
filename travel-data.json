@@ -640,9 +640,8 @@
     "past": false
   },
   {
-    "location": "Duluth, MN",
-    "coordinates": [-92.1, 46.7867],
-    "customMarkerCoords": [-91.9, 46.7867],
+    "location": "Madison, WI",
+    "coordinates": [-89.4008, 43.0722],
     "stayDuration": "long",
     "year": 2024,
     "arrive": "Jun 16, 2024",
@@ -651,13 +650,14 @@
     "past": false
   },
   {
-    "location": "Madison, WI",
-    "coordinates": [-89.4008, 43.0722],
+    "location": "Duluth, MN",
+    "coordinates": [-92.1, 46.7867],
+    "customMarkerCoords": [-91.9, 46.7867],
     "stayDuration": "long",
     "year": 2024,
     "arrive": "Jul 14, 2024",
-    "depart": "Aug 10, 2024",
-    "route": 6,
+    "depart": "Aug 17, 2024",
+    "route": 5,
     "past": false
   },
   {
@@ -665,8 +665,8 @@
     "coordinates": [-79.9959, 40.4406],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Aug 11, 2024",
-    "depart": "Sep 7, 2024",
+    "arrive": "Aug 18, 2024",
+    "depart": "Sep 14, 2024",
     "route": 6,
     "past": false
   },
@@ -675,7 +675,7 @@
     "coordinates": [-73.2121, 44.4759],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Sep 8, 2024",
+    "arrive": "Sep 15, 2024",
     "depart": "Oct 13, 2024",
     "route": 6,
     "past": false
