@@ -567,7 +567,7 @@
     "arrive": "Oct 15, 2023",
     "depart": "Nov 11, 2023",
     "route": 4,
-    "past": false
+    "past": true
   },
   {
     "location": "Aitkin, MN",
@@ -620,32 +620,22 @@
     "past": false
   },
   {
-    "location": "Santa Fe, NM",
-    "coordinates": [-105.9378, 35.687],
+    "location": "White Salmon, WA",
+    "coordinates": [-121.4867, 45.7278],
     "stayDuration": "long",
     "year": 2024,
     "arrive": "Apr 21, 2024",
-    "depart": "May 18, 2024",
+    "depart": "Jun 20, 2024",
     "route": 5,
     "past": false
   },
   {
-    "location": "Manhattan, KS",
-    "coordinates": [-96.5717, 39.1836],
+    "location": "Hot Springs, SD",
+    "coordinates": [-103.4744, 43.4316],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "May 19, 2024",
-    "depart": "Jun 15, 2024",
-    "route": 5,
-    "past": false
-  },
-  {
-    "location": "Madison, WI",
-    "coordinates": [-89.4008, 43.0722],
-    "stayDuration": "long",
-    "year": 2024,
-    "arrive": "Jun 16, 2024",
-    "depart": "Jul 14, 2024",
+    "arrive": "Jun 22, 2024",
+    "depart": "Jul 20, 2024",
     "route": 5,
     "past": false
   },
@@ -658,124 +648,6 @@
     "arrive": "Jul 14, 2024",
     "depart": "Aug 17, 2024",
     "route": 5,
-    "past": false
-  },
-  {
-    "location": "Pittsburgh, PA",
-    "coordinates": [-79.9959, 40.4406],
-    "stayDuration": "long",
-    "year": 2024,
-    "arrive": "Aug 18, 2024",
-    "depart": "Sep 14, 2024",
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "Burlington, VT",
-    "coordinates": [-73.2121, 44.4759],
-    "stayDuration": "long",
-    "year": 2024,
-    "arrive": "Sep 15, 2024",
-    "depart": "Oct 13, 2024",
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "ROUTE_PIN",
-    "coordinates": [-71.554207, 44.044158],
-    "year": 2024,
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "Portland, ME",
-    "coordinates": [-70.2568, 43.6591],
-    "stayDuration": "long",
-    "year": 2024,
-    "arrive": "Oct 13, 2024",
-    "depart": "Nov 10, 2024",
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "Plymouth, MA",
-    "coordinates": [-70.6673, 41.9584],
-    "stayDuration": "long",
-    "year": 2024,
-    "arrive": "Nov 10, 2024",
-    "depart": "Dec 8, 2024",
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "New York, NY",
-    "coordinates": [-74.006, 40.7128],
-    "stayDuration": "long",
-    "year": 2024,
-    "arrive": "Dec 8, 2024",
-    "depart": "Jan 4, 2025",
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "Charleston, SC",
-    "coordinates": [-79.9311, 32.7765],
-    "stayDuration": "long",
-    "year": 2024,
-    "arrive": "Jan 5, 2025",
-    "depart": "Feb 2, 2025",
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "St. Augustine, FL",
-    "coordinates": [-81.3139, 29.8922],
-    "stayDuration": "long",
-    "year": 2024,
-    "arrive": "Feb 2, 2025",
-    "depart": "Mar 2, 2025",
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "Miami, FL",
-    "coordinates": [-80.1918, 25.7617],
-    "stayDuration": "long",
-    "year": 2025,
-    "arrive": "Mar 2, 2025",
-    "depart": "Mar 29, 2025",
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "Lafayette, LA",
-    "coordinates": [-92.0198, 30.2241],
-    "stayDuration": "long",
-    "year": 2025,
-    "arrive": "Mar 30, 2025",
-    "depart": "Apr 26, 2025",
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "Lake Ozark, MO",
-    "coordinates": [-92.6388, 38.1986],
-    "stayDuration": "long",
-    "year": 2025,
-    "arrive": "Apr 27, 2025",
-    "depart": "May 24, 2025",
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "Duluth, MN",
-    "coordinates": [-92.1, 46.7867],
-    "customMarkerCoords": [-91.86, 46.7867],
-    "stayDuration": "long",
-    "year": 2025,
-    "arrive": "May 25, 2025",
-    "depart": "Jun 21, 2025",
-    "route": 6,
     "past": false
   }
 ]
