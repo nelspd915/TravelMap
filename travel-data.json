@@ -580,8 +580,8 @@
     "past": false
   },
   {
-    "location": "Dallas, TX",
-    "coordinates": [-96.797, 32.7767],
+    "location": "Flagstaff, AZ",
+    "coordinates": [-111.6513, 35.1983],
     "stayDuration": "long",
     "year": 2024,
     "arrive": "Dec 31, 2023",
@@ -630,8 +630,8 @@
     "past": false
   },
   {
-    "location": "Hot Springs, SD",
-    "coordinates": [-103.4744, 43.4316],
+    "location": "Minneapolis, MN",
+    "coordinates": [-93.265, 44.9778],
     "stayDuration": "long",
     "year": 2024,
     "arrive": "Jun 22, 2024",
@@ -645,8 +645,8 @@
     "customMarkerCoords": [-91.9, 46.7867],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Jul 14, 2024",
-    "depart": "Aug 17, 2024",
+    "arrive": "Jul 20, 2024",
+    "depart": "Aug 24, 2024",
     "route": 5,
     "past": false
   }
