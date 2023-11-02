@@ -631,10 +631,10 @@
   },
   {
     "location": "Minneapolis, MN",
-    "coordinates": [-93.265, 44.9778],
+    "coordinates": [-93.5302, 47.2372],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Jun 22, 2024",
+    "arrive": "Jun 23, 2024",
     "depart": "Jul 20, 2024",
     "route": 5,
     "past": false
