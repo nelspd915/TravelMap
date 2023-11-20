@@ -577,7 +577,7 @@
     "arrive": "Nov 12, 2023",
     "depart": "Dec 30, 2023",
     "route": 4,
-    "past": false
+    "past": true
   },
   {
     "location": "Flagstaff, AZ",
