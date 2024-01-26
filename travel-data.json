@@ -663,5 +663,25 @@
     "depart": "Jul 13, 2024",
     "route": 5,
     "past": false
+  },
+  {
+    "location": "Arcata, CA",
+    "coordinates": [-124.0828, 40.8665],
+    "stayDuration": "long",
+    "year": 2024,
+    "arrive": "Jul 14, 2024",
+    "depart": "Aug 17, 2024",
+    "route": 5,
+    "past": false
+  },
+  {
+    "location": "Couer d'Alene, ID",
+    "coordinates": [-116.7812, 47.6735],
+    "stayDuration": "long",
+    "year": 2024,
+    "arrive": "Aug 18, 2024",
+    "depart": "Sep 21, 2024",
+    "route": 5,
+    "past": false
   }
 ]
