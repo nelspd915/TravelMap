@@ -580,6 +580,13 @@
     "past": true
   },
   {
+    "location": "ROUTE_PIN",
+    "coordinates": [-102.5132, 36.0595],
+    "route": 5,
+    "year": 2024,
+    "past": true
+  },
+  {
     "location": "Flagstaff, AZ",
     "coordinates": [-111.6513, 35.1983],
     "stayDuration": "long",
@@ -587,6 +594,13 @@
     "arrive": "Jan 1, 2024",
     "depart": "Jan 27, 2024",
     "route": 5,
+    "past": true
+  },
+  {
+    "location": "ROUTE_PIN",
+    "coordinates": [-107.8801, 37.2753],
+    "route": 5,
+    "year": 2024,
     "past": false
   },
   {
@@ -595,23 +609,23 @@
     "stayDuration": "long",
     "year": 2024,
     "arrive": "Jan 28, 2024",
-    "depart": "Feb 24, 2024",
+    "depart": "Feb 25, 2024",
     "route": 5,
     "past": false
   },
   {
-    "location": "Grand Junction, CO",
-    "coordinates": [-108.5506, 39.0639],
+    "location": "Boulder, CO",
+    "coordinates": [-105.2705, 40.015],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Feb 24, 2024",
-    "depart": "Mar 24, 2024",
+    "arrive": "Feb 25, 2024",
+    "depart": "Mar 23, 2024",
     "route": 5,
     "past": false
   },
   {
-    "location": "Las Vegas, NV",
-    "coordinates": [-115.1391, 36.1716],
+    "location": "Cedar City, UT",
+    "coordinates": [-113.0619, 37.6775],
     "stayDuration": "long",
     "year": 2024,
     "arrive": "Mar 24, 2024",
@@ -620,33 +634,33 @@
     "past": false
   },
   {
-    "location": "White Salmon, WA",
-    "coordinates": [-121.4867, 45.7278],
+    "location": "Reno, NV",
+    "coordinates": [-119.8143, 39.5299],
     "stayDuration": "long",
     "year": 2024,
     "arrive": "Apr 21, 2024",
-    "depart": "Jun 20, 2024",
+    "depart": "May 18, 2024",
     "route": 5,
     "past": false
   },
   {
-    "location": "Grand Rapids, MN",
-    "coordinates": [-93.5302, 47.2372],
+    "location": "Salem, OR",
+    "coordinates": [-123.0351, 44.9429],
+    "customMarkerCoords": [-122.9951, 44.9429],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Jun 23, 2024",
-    "depart": "Jul 20, 2024",
+    "arrive": "May 19, 2024",
+    "depart": "Jun 15, 2024",
     "route": 5,
     "past": false
   },
   {
-    "location": "Duluth, MN",
-    "coordinates": [-92.1, 46.7867],
-    "customMarkerCoords": [-91.9, 46.7867],
+    "location": "Bend, OR",
+    "coordinates": [-121.3153, 44.0582],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Jul 20, 2024",
-    "depart": "Aug 24, 2024",
+    "arrive": "Jun 15, 2024",
+    "depart": "Jul 13, 2024",
     "route": 5,
     "past": false
   }
