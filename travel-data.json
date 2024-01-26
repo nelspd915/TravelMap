@@ -683,5 +683,15 @@
     "depart": "Sep 21, 2024",
     "route": 5,
     "past": false
+  },
+  {
+    "location": "Grand Junction, CO",
+    "coordinates": [-108.5506, 39.0639],
+    "stayDuration": "long",
+    "year": 2024,
+    "arrive": "Sep 22, 2024",
+    "depart": "Oct 26, 2024",
+    "route": 5,
+    "past": false
   }
 ]
