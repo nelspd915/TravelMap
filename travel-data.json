@@ -697,11 +697,12 @@
   {
     "location": "Boise, ID",
     "coordinates": [-116.2023, 43.6187],
+    "customMarkerCoords": [-116.1623, 43.6187],
     "stayDuration": "long",
     "year": 2024,
     "arrive": "Oct 27, 2024",
     "depart": "Nov 30, 2024",
-    "route": 5,
+    "route": 6,
     "past": false
   },
   {
@@ -711,12 +712,12 @@
     "year": 2024,
     "arrive": "Dec 1, 2024",
     "depart": "Jan 4, 2025",
-    "route": 5,
+    "route": 6,
     "past": false
   },
   {
-    "location": "St. George, UT",
-    "coordinates": [-113.5684, 37.0965],
+    "location": "Eugene, OR",
+    "coordinates": [-123.0868, 44.0521],
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Jan 5, 2025",
@@ -725,8 +726,8 @@
     "past": false
   },
   {
-    "location": "San Diego, CA",
-    "coordinates": [-117.1611, 32.7157],
+    "location": "Fremont, CA",
+    "coordinates": [-121.9886, 37.5485],
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Feb 9, 2025",
@@ -735,12 +736,22 @@
     "past": false
   },
   {
-    "location": "Fremont, CA",
-    "coordinates": [-121.9886, 37.5485],
+    "location": "San Diego, CA",
+    "coordinates": [-117.1611, 32.7157],
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Mar 16, 2025",
     "depart": "Apr 19, 2025",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Santa Fe, NM",
+    "coordinates": [-105.9378, 35.687],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Apr 20, 2025",
+    "depart": "May 24, 2025",
     "route": 6,
     "past": false
   }
