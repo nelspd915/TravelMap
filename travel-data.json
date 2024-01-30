@@ -11,6 +11,13 @@
     "past": true
   },
   {
+    "location": "ROUTE_PIN",
+    "coordinates": [-105.0875, 39.8028],
+    "route": 1,
+    "year": 2020,
+    "past": true
+  },
+  {
     "location": "Lake Elsinore, CA",
     "coordinates": [-117.3273, 33.6681],
     "stayDuration": "long",
@@ -601,7 +608,7 @@
     "coordinates": [-107.8801, 37.2753],
     "route": 5,
     "year": 2024,
-    "past": false
+    "past": true
   },
   {
     "location": "Colorado Springs, CO",
@@ -611,7 +618,7 @@
     "arrive": "Jan 28, 2024",
     "depart": "Feb 25, 2024",
     "route": 5,
-    "past": false
+    "past": true
   },
   {
     "location": "Boulder, CO",
@@ -659,8 +666,8 @@
     "coordinates": [-121.3153, 44.0582],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Jun 15, 2024",
-    "depart": "Jul 13, 2024",
+    "arrive": "Jun 16, 2024",
+    "depart": "Jul 17, 2024",
     "route": 5,
     "past": false
   },
@@ -669,8 +676,8 @@
     "coordinates": [-124.0828, 40.8665],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Jul 14, 2024",
-    "depart": "Aug 17, 2024",
+    "arrive": "Jul 17, 2024",
+    "depart": "Aug 24, 2024",
     "route": 5,
     "past": false
   },
@@ -679,8 +686,8 @@
     "coordinates": [-116.7812, 47.6735],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Aug 18, 2024",
-    "depart": "Sep 21, 2024",
+    "arrive": "Aug 25, 2024",
+    "depart": "Sep 28, 2024",
     "route": 5,
     "past": false
   },
@@ -689,19 +696,18 @@
     "coordinates": [-108.5506, 39.0639],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Sep 22, 2024",
-    "depart": "Oct 26, 2024",
-    "route": 5,
+    "arrive": "Sep 29, 2024",
+    "depart": "Nov 2, 2024",
+    "route": 6,
     "past": false
   },
   {
-    "location": "Boise, ID",
-    "coordinates": [-116.2023, 43.6187],
-    "customMarkerCoords": [-116.1623, 43.6187],
+    "location": "Saint George, UT",
+    "coordinates": [-113.5684, 37.0965],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Oct 27, 2024",
-    "depart": "Nov 30, 2024",
+    "arrive": "Nov 3, 2024",
+    "depart": "Dec 7, 2024",
     "route": 6,
     "past": false
   },
@@ -710,8 +716,8 @@
     "coordinates": [-120.6615, 47.5962],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Dec 1, 2024",
-    "depart": "Jan 4, 2025",
+    "arrive": "Dec 8, 2024",
+    "depart": "Jan 11, 2025",
     "route": 6,
     "past": false
   },
@@ -720,8 +726,8 @@
     "coordinates": [-123.0868, 44.0521],
     "stayDuration": "long",
     "year": 2025,
-    "arrive": "Jan 5, 2025",
-    "depart": "Feb 8, 2025",
+    "arrive": "Jan 12, 2025",
+    "depart": "Feb 15, 2025",
     "route": 6,
     "past": false
   },
@@ -730,8 +736,8 @@
     "coordinates": [-121.9886, 37.5485],
     "stayDuration": "long",
     "year": 2025,
-    "arrive": "Feb 9, 2025",
-    "depart": "Mar 15, 2025",
+    "arrive": "Feb 16, 2025",
+    "depart": "Mar 22, 2025",
     "route": 6,
     "past": false
   },
@@ -740,18 +746,8 @@
     "coordinates": [-117.1611, 32.7157],
     "stayDuration": "long",
     "year": 2025,
-    "arrive": "Mar 16, 2025",
-    "depart": "Apr 19, 2025",
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "Santa Fe, NM",
-    "coordinates": [-105.9378, 35.687],
-    "stayDuration": "long",
-    "year": 2025,
-    "arrive": "Apr 20, 2025",
-    "depart": "May 24, 2025",
+    "arrive": "Mar 23, 2025",
+    "depart": "Apr 26, 2025",
     "route": 6,
     "past": false
   }
