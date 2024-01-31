@@ -722,8 +722,8 @@
     "past": false
   },
   {
-    "location": "Eugene, OR",
-    "coordinates": [-123.0868, 44.0521],
+    "location": "San Diego, CA",
+    "coordinates": [-117.1611, 32.7157],
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Jan 12, 2025",
@@ -742,12 +742,23 @@
     "past": false
   },
   {
-    "location": "San Diego, CA",
-    "coordinates": [-117.1611, 32.7157],
+    "location": "Boise, ID",
+    "coordinates": [-116.2023, 43.6187],
+    "customMarkerCoords": [-116.1623, 43.6187],
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Mar 23, 2025",
     "depart": "Apr 26, 2025",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Santa Fe, NM",
+    "coordinates": [-105.9378, 35.687],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Apr 27, 2025",
+    "depart": "May 31, 2025",
     "route": 6,
     "past": false
   }
