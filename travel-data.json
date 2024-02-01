@@ -651,23 +651,23 @@
     "past": false
   },
   {
+    "location": "Bend, OR",
+    "coordinates": [-121.3153, 44.0582],
+    "stayDuration": "long",
+    "year": 2024,
+    "arrive": "May 18, 2024",
+    "depart": "Jun 16, 2024",
+    "route": 5,
+    "past": false
+  },
+  {
     "location": "Salem, OR",
     "coordinates": [-123.0351, 44.9429],
     "customMarkerCoords": [-122.9951, 44.9429],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "May 19, 2024",
-    "depart": "Jun 15, 2024",
-    "route": 5,
-    "past": false
-  },
-  {
-    "location": "Bend, OR",
-    "coordinates": [-121.3153, 44.0582],
-    "stayDuration": "long",
-    "year": 2024,
     "arrive": "Jun 16, 2024",
-    "depart": "Jul 17, 2024",
+    "depart": "Jul 20, 2024",
     "route": 5,
     "past": false
   },
@@ -676,7 +676,7 @@
     "coordinates": [-124.0828, 40.8665],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Jul 17, 2024",
+    "arrive": "Jul 21, 2024",
     "depart": "Aug 24, 2024",
     "route": 5,
     "past": false
