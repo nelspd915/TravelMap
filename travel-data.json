@@ -742,9 +742,8 @@
     "past": false
   },
   {
-    "location": "Boise, ID",
-    "coordinates": [-116.2023, 43.6187],
-    "customMarkerCoords": [-116.1623, 43.6187],
+    "location": "Mount Vernon, WA",
+    "coordinates": [-122.3375, 48.4201],
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Mar 23, 2025",
@@ -753,13 +752,55 @@
     "past": false
   },
   {
-    "location": "Santa Fe, NM",
-    "coordinates": [-105.9378, 35.687],
+    "location": "Boise, ID",
+    "coordinates": [-116.2023, 43.6187],
+    "customMarkerCoords": [-116.1623, 43.6187],
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Apr 27, 2025",
     "depart": "May 31, 2025",
-    "route": 6,
+    "route": 7,
+    "past": false
+  },
+  {
+    "location": "Missoula, MT",
+    "coordinates": [-113.9883, 46.8721],
+    "customMarkerCoords": [-113.9483, 46.8721],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Jun 1, 2025",
+    "depart": "Jul 5, 2025",
+    "route": 7,
+    "past": false
+  },
+  {
+    "location": "Santa Fe, NM",
+    "coordinates": [-105.9378, 35.687],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Jul 6, 2025",
+    "depart": "Aug 9, 2025",
+    "route": 7,
+    "past": false
+  },
+  {
+    "location": "Sioux Falls, SD",
+    "coordinates": [-96.7313, 43.546],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Aug 10, 2025",
+    "depart": "Sep 13, 2025",
+    "route": 7,
+    "past": false
+  },
+  {
+    "location": "Minneapolis, MN",
+    "coordinates": [-93.265, 44.9778],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Sep 13, 2025",
+    "depart": "Oct 18, 2025",
+    "route": 7,
     "past": false
   }
 ]
