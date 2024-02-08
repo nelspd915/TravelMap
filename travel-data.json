@@ -611,6 +611,13 @@
     "past": true
   },
   {
+    "location": "ROUTE_PIN",
+    "coordinates": [-105.9989, 38.5347],
+    "route": 5,
+    "year": 2024,
+    "past": true
+  },
+  {
     "location": "Colorado Springs, CO",
     "coordinates": [-104.8214, 38.8339],
     "stayDuration": "long",
