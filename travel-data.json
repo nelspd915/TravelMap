@@ -658,23 +658,23 @@
     "past": false
   },
   {
-    "location": "Bend, OR",
-    "coordinates": [-121.3153, 44.0582],
-    "stayDuration": "long",
-    "year": 2024,
-    "arrive": "May 18, 2024",
-    "depart": "Jun 16, 2024",
-    "route": 5,
-    "past": false
-  },
-  {
     "location": "Salem, OR",
     "coordinates": [-123.0351, 44.9429],
     "customMarkerCoords": [-122.9951, 44.9429],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Jun 16, 2024",
-    "depart": "Jul 20, 2024",
+    "arrive": "May 19, 2024",
+    "depart": "Jun 23, 2024",
+    "route": 5,
+    "past": false
+  },
+  {
+    "location": "Portland, OR",
+    "coordinates": [-122.6784, 45.5152],
+    "stayDuration": "long",
+    "year": 2024,
+    "arrive": "Jun 23, 2024",
+    "depart": "Jul 21, 2024",
     "route": 5,
     "past": false
   },
@@ -689,8 +689,8 @@
     "past": false
   },
   {
-    "location": "Coeur d'Alene, ID",
-    "coordinates": [-116.7812, 47.6735],
+    "location": "Bend, OR",
+    "coordinates": [-121.3153, 44.0582],
     "stayDuration": "long",
     "year": 2024,
     "arrive": "Aug 25, 2024",
