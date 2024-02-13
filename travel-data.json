@@ -729,8 +729,8 @@
     "past": false
   },
   {
-    "location": "San Diego, CA",
-    "coordinates": [-117.1611, 32.7157],
+    "location": "San Luis Obispo, CA",
+    "coordinates": [-120.6596, 35.2828],
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Jan 12, 2025",
@@ -739,8 +739,8 @@
     "past": false
   },
   {
-    "location": "Fremont, CA",
-    "coordinates": [-121.9886, 37.5485],
+    "location": "Walnut Creek, CA",
+    "coordinates": [-122.0652, 37.9101],
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Feb 16, 2025",
@@ -749,8 +749,8 @@
     "past": false
   },
   {
-    "location": "Mount Vernon, WA",
-    "coordinates": [-122.3375, 48.4201],
+    "location": "Bellingham, WA",
+    "coordinates": [-122.4787, 48.7519],
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Mar 23, 2025",
