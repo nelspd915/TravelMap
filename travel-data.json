@@ -729,6 +729,13 @@
     "past": false
   },
   {
+    "location": "ROUTE_PIN",
+    "coordinates": [-117.1465, 36.6062],
+    "route": 6,
+    "year": 2025,
+    "past": false
+  },
+  {
     "location": "San Luis Obispo, CA",
     "coordinates": [-120.6596, 35.2828],
     "stayDuration": "long",
