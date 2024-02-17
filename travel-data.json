@@ -674,7 +674,7 @@
     "stayDuration": "long",
     "year": 2024,
     "arrive": "Jun 23, 2024",
-    "depart": "Jul 21, 2024",
+    "depart": "Jul 27, 2024",
     "route": 5,
     "past": false
   },
@@ -683,8 +683,8 @@
     "coordinates": [-105.9378, 35.687],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Jul 21, 2024",
-    "depart": "Aug 24, 2024",
+    "arrive": "Jul 28, 2024",
+    "depart": "Aug 31, 2024",
     "route": 5,
     "past": false
   },
@@ -693,7 +693,7 @@
     "coordinates": [-103.231, 44.0805],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Aug 25, 2024",
+    "arrive": "Sep 1, 2024",
     "depart": "Sep 28, 2024",
     "route": 5,
     "past": false
