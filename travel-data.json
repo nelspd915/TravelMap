@@ -689,24 +689,24 @@
     "past": false
   },
   {
-    "location": "Rapid City, SD",
-    "coordinates": [-103.231, 44.0805],
-    "stayDuration": "long",
-    "year": 2024,
-    "arrive": "Sep 1, 2024",
-    "depart": "Sep 28, 2024",
-    "route": 5,
-    "past": false
-  },
-  {
     "location": "Duluth, MN",
     "coordinates": [-92.1, 46.7867],
     "customMarkerCoords": [-91.9, 46.7867],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Sep 29, 2024",
-    "depart": "Nov 2, 2024",
+    "arrive": "Sep 1, 2024",
+    "depart": "Oct 5, 2024",
     "route": 5,
+    "past": false
+  },
+  {
+    "location": "Grand Junction, CO",
+    "coordinates": [-108.5506, 39.0639],
+    "stayDuration": "long",
+    "year": 2024,
+    "arrive": "Oct 6, 2024",
+    "depart": "Nov 9, 2024",
+    "route": 6,
     "past": false
   },
   {
@@ -714,8 +714,8 @@
     "coordinates": [-113.5684, 37.0965],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Nov 3, 2024",
-    "depart": "Dec 7, 2024",
+    "arrive": "Nov 9, 2024",
+    "depart": "Dec 14, 2024",
     "route": 6,
     "past": false
   },
@@ -724,7 +724,7 @@
     "coordinates": [-111.9738, 41.223],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Dec 8, 2024",
+    "arrive": "Dec 15, 2024",
     "depart": "Jan 11, 2025",
     "route": 6,
     "past": false
