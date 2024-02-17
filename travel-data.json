@@ -679,8 +679,8 @@
     "past": false
   },
   {
-    "location": "Arcata, CA",
-    "coordinates": [-124.0828, 40.8665],
+    "location": "Santa Fe, NM",
+    "coordinates": [-105.9378, 35.687],
     "stayDuration": "long",
     "year": 2024,
     "arrive": "Jul 21, 2024",
@@ -689,9 +689,8 @@
     "past": false
   },
   {
-    "location": "Missoula, MT",
-    "coordinates": [-113.9883, 46.8721],
-    "customMarkerCoords": [-113.9483, 46.8721],
+    "location": "Rapid City, SD",
+    "coordinates": [-103.231, 44.0805],
     "stayDuration": "long",
     "year": 2024,
     "arrive": "Aug 25, 2024",
@@ -775,7 +774,7 @@
     "year": 2025,
     "arrive": "Apr 27, 2025",
     "depart": "May 31, 2025",
-    "route": 7,
+    "route": 6,
     "past": false
   },
   {
@@ -785,45 +784,7 @@
     "year": 2025,
     "arrive": "Jun 1, 2025",
     "depart": "Jul 5, 2025",
-    "route": 7,
-    "past": false
-  },
-  {
-    "location": "ROUTE_PIN",
-    "coordinates": [-115.7631, 40.8324],
-    "route": 7,
-    "year": 2025,
-    "past": false
-  },
-  {
-    "location": "Santa Fe, NM",
-    "coordinates": [-105.9378, 35.687],
-    "stayDuration": "long",
-    "year": 2025,
-    "arrive": "Jul 6, 2025",
-    "depart": "Aug 9, 2025",
-    "route": 7,
-    "past": false
-  },
-  {
-    "location": "Rapid City, SD",
-    "coordinates": [-103.231, 44.0805],
-    "stayDuration": "long",
-    "year": 2025,
-    "arrive": "Aug 10, 2025",
-    "depart": "Sep 13, 2025",
-    "route": 7,
-    "past": false
-  },
-  {
-    "location": "Duluth, MN",
-    "coordinates": [-92.1, 46.7867],
-    "customMarkerCoords": [-91.86, 46.7867],
-    "stayDuration": "long",
-    "year": 2025,
-    "arrive": "Sep 13, 2025",
-    "depart": "Oct 18, 2025",
-    "route": 7,
+    "route": 6,
     "past": false
   }
 ]
