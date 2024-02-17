@@ -689,8 +689,9 @@
     "past": false
   },
   {
-    "location": "Bend, OR",
-    "coordinates": [-121.3153, 44.0582],
+    "location": "Missoula, MT",
+    "coordinates": [-113.9883, 46.8721],
+    "customMarkerCoords": [-113.9483, 46.8721],
     "stayDuration": "long",
     "year": 2024,
     "arrive": "Aug 25, 2024",
@@ -699,13 +700,14 @@
     "past": false
   },
   {
-    "location": "Grand Junction, CO",
-    "coordinates": [-108.5506, 39.0639],
+    "location": "Duluth, MN",
+    "coordinates": [-92.1, 46.7867],
+    "customMarkerCoords": [-91.9, 46.7867],
     "stayDuration": "long",
     "year": 2024,
     "arrive": "Sep 29, 2024",
     "depart": "Nov 2, 2024",
-    "route": 6,
+    "route": 5,
     "past": false
   },
   {
@@ -777,9 +779,8 @@
     "past": false
   },
   {
-    "location": "Missoula, MT",
-    "coordinates": [-113.9883, 46.8721],
-    "customMarkerCoords": [-113.9483, 46.8721],
+    "location": "Bend, OR",
+    "coordinates": [-121.3153, 44.0582],
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Jun 1, 2025",
@@ -808,8 +809,9 @@
     "past": false
   },
   {
-    "location": "Minneapolis, MN",
-    "coordinates": [-93.265, 44.9778],
+    "location": "Duluth, MN",
+    "coordinates": [-92.1, 46.7867],
+    "customMarkerCoords": [-91.86, 46.7867],
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Sep 13, 2025",
