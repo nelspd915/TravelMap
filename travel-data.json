@@ -789,6 +789,13 @@
     "past": false
   },
   {
+    "location": "ROUTE_PIN",
+    "coordinates": [-115.7631, 40.8324],
+    "route": 7,
+    "year": 2025,
+    "past": false
+  },
+  {
     "location": "Santa Fe, NM",
     "coordinates": [-105.9378, 35.687],
     "stayDuration": "long",
