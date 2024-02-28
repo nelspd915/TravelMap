@@ -635,7 +635,7 @@
     "arrive": "Feb 25, 2024",
     "depart": "Mar 23, 2024",
     "route": 5,
-    "past": false
+    "past": true
   },
   {
     "location": "Cedar City, UT",
@@ -767,9 +767,9 @@
     "past": false
   },
   {
-    "location": "Boise, ID",
-    "coordinates": [-116.2023, 43.6187],
-    "customMarkerCoords": [-116.1623, 43.6187],
+    "location": "Hood River, OR",
+    "coordinates": [-121.5217, 45.7054],
+    "customMarkerCoords": [-121.4817, 45.7054],
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Apr 27, 2025",
