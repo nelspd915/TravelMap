@@ -786,5 +786,22 @@
     "depart": "Jul 5, 2025",
     "route": 6,
     "past": false
+  },
+  {
+    "location": "ROUTE_PIN",
+    "coordinates": [-111.588316, 42.65463],
+    "year": 2025,
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Lander, WY",
+    "coordinates": [-108.7307, 42.833],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Jul 6, 2025",
+    "depart": "Aug 9, 2025",
+    "route": 6,
+    "past": false
   }
 ]
