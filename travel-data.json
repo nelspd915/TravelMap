@@ -720,20 +720,13 @@
     "past": false
   },
   {
-    "location": "Ogden, UT",
-    "coordinates": [-111.9738, 41.223],
+    "location": "Sedona, AZ",
+    "coordinates": [-111.761, 34.8697],
     "stayDuration": "long",
     "year": 2024,
     "arrive": "Dec 15, 2024",
     "depart": "Jan 11, 2025",
     "route": 6,
-    "past": false
-  },
-  {
-    "location": "ROUTE_PIN",
-    "coordinates": [-117.1465, 36.6062],
-    "route": 6,
-    "year": 2025,
     "past": false
   },
   {
