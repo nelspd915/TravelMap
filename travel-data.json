@@ -796,5 +796,15 @@
     "depart": "Aug 9, 2025",
     "route": 6,
     "past": false
+  },
+  {
+    "location": "Rapid City, SD",
+    "coordinates": [-103.231, 44.0805],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Aug 10, 2025",
+    "depart": "---",
+    "route": 6,
+    "past": false
   }
 ]
