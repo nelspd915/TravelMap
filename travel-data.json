@@ -740,8 +740,8 @@
     "past": false
   },
   {
-    "location": "Chico, CA",
-    "coordinates": [-121.8375, 39.7285],
+    "location": "Bishop, CA",
+    "coordinates": [-118.3952, 37.3614],
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Feb 16, 2025",
@@ -750,8 +750,9 @@
     "past": false
   },
   {
-    "location": "Wenatchee, WA",
-    "coordinates": [-120.3103, 47.4235],
+    "location": "Hood River, OR",
+    "coordinates": [-121.5217, 45.7054],
+    "customMarkerCoords": [-121.4817, 45.7054],
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Mar 23, 2025",
@@ -760,9 +761,8 @@
     "past": false
   },
   {
-    "location": "Hood River, OR",
-    "coordinates": [-121.5217, 45.7054],
-    "customMarkerCoords": [-121.4817, 45.7054],
+    "location": "Wenatchee, WA",
+    "coordinates": [-120.3103, 47.4235],
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Apr 27, 2025",
@@ -781,19 +781,19 @@
     "past": false
   },
   {
-    "location": "ROUTE_PIN",
-    "coordinates": [-110.7624, 43.4799],
-    "year": 2025,
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "Lander, WY",
-    "coordinates": [-108.7307, 42.833],
+    "location": "Twin Falls, ID",
+    "coordinates": [-114.4701, 42.5558],
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Jul 6, 2025",
     "depart": "Aug 9, 2025",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "ROUTE_PIN",
+    "coordinates": [-110.7624, 43.4799],
+    "year": 2025,
     "route": 6,
     "past": false
   },
