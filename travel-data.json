@@ -679,8 +679,8 @@
     "past": false
   },
   {
-    "location": "Santa Fe, NM",
-    "coordinates": [-105.9378, 35.687],
+    "location": "Grand Junction, CO",
+    "coordinates": [-108.5506, 39.0639],
     "stayDuration": "long",
     "year": 2024,
     "arrive": "Jul 28, 2024",
@@ -700,8 +700,9 @@
     "past": false
   },
   {
-    "location": "Grand Junction, CO",
-    "coordinates": [-108.5506, 39.0639],
+    "location": "Moab, UT",
+    "coordinates": [-109.550763, 38.576735],
+    "customMarkerCoords": [-109.510763, 38.576735],
     "stayDuration": "long",
     "year": 2024,
     "arrive": "Oct 6, 2024",
