@@ -645,7 +645,7 @@
     "arrive": "Mar 24, 2024",
     "depart": "Apr 20, 2024",
     "route": 5,
-    "past": false
+    "past": true
   },
   {
     "location": "Reno, NV",
@@ -804,7 +804,7 @@
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Aug 10, 2025",
-    "depart": "---",
+    "depart": "Sep 6, 2025",
     "route": 6,
     "past": false
   }
