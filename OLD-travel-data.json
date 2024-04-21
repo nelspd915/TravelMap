@@ -1,0 +1,142 @@
+[
+  {
+    "location": "Sausalito, CA",
+    "coordinates": [-122.4853, 37.8591],
+    "stayDuration": "long",
+    "year": 2024,
+    "arrive": "Jun 23, 2024",
+    "depart": "Jul 27, 2024",
+    "route": 5,
+    "past": false
+  },
+  {
+    "location": "Grand Junction, CO",
+    "coordinates": [-108.5506, 39.0639],
+    "stayDuration": "long",
+    "year": 2024,
+    "arrive": "Jul 28, 2024",
+    "depart": "Aug 31, 2024",
+    "route": 5,
+    "past": false
+  },
+  {
+    "location": "Duluth, MN",
+    "coordinates": [-92.1, 46.7867],
+    "customMarkerCoords": [-91.9, 46.7867],
+    "stayDuration": "long",
+    "year": 2024,
+    "arrive": "Sep 1, 2024",
+    "depart": "Oct 5, 2024",
+    "route": 5,
+    "past": false
+  },
+  {
+    "location": "Moab, UT",
+    "coordinates": [-109.550763, 38.576735],
+    "customMarkerCoords": [-109.510763, 38.576735],
+    "stayDuration": "long",
+    "year": 2024,
+    "arrive": "Oct 6, 2024",
+    "depart": "Nov 9, 2024",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Saint George, UT",
+    "coordinates": [-113.5684, 37.0965],
+    "stayDuration": "long",
+    "year": 2024,
+    "arrive": "Nov 9, 2024",
+    "depart": "Dec 14, 2024",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Sedona, AZ",
+    "coordinates": [-111.761, 34.8697],
+    "stayDuration": "long",
+    "year": 2024,
+    "arrive": "Dec 15, 2024",
+    "depart": "Jan 11, 2025",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "San Luis Obispo, CA",
+    "coordinates": [-120.6596, 35.2828],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Jan 12, 2025",
+    "depart": "Feb 15, 2025",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Bishop, CA",
+    "coordinates": [-118.3952, 37.3614],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Feb 16, 2025",
+    "depart": "Mar 22, 2025",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Hood River, OR",
+    "coordinates": [-121.5217, 45.7054],
+    "customMarkerCoords": [-121.4817, 45.7054],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Mar 23, 2025",
+    "depart": "Apr 26, 2025",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Wenatchee, WA",
+    "coordinates": [-120.3103, 47.4235],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Apr 27, 2025",
+    "depart": "May 31, 2025",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Bend, OR",
+    "coordinates": [-121.3153, 44.0582],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Jun 1, 2025",
+    "depart": "Jul 5, 2025",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Twin Falls, ID",
+    "coordinates": [-114.4701, 42.5558],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Jul 6, 2025",
+    "depart": "Aug 9, 2025",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "ROUTE_PIN",
+    "coordinates": [-110.7624, 43.4799],
+    "year": 2025,
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Rapid City, SD",
+    "coordinates": [-103.231, 44.0805],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Aug 10, 2025",
+    "depart": "Sep 6, 2025",
+    "route": 6,
+    "past": false
+  }
+]
