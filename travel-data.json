@@ -667,46 +667,5 @@
     "depart": "Jun 23, 2024",
     "route": 5,
     "past": false
-  },
-  {
-    "location": "Ontario, OR",
-    "coordinates": [-116.9629, 44.0266],
-    "stayDuration": "short",
-    "year": 2024,
-    "arrive": "Jun 23, 2024",
-    "depart": "Jun 30, 2024",
-    "route": 5,
-    "past": false
-  },
-  {
-    "location": "Rock Springs, WY",
-    "coordinates": [-109.1985, 41.5875],
-    "customMarkerCoords": [-109.1585, 41.5875],
-    "stayDuration": "short",
-    "year": 2024,
-    "arrive": "Jun 30, 2024",
-    "depart": "Jul 7, 2024",
-    "route": 5,
-    "past": false
-  },
-  {
-    "location": "Kearney, NE",
-    "coordinates": [-99.0817, 40.6993],
-    "stayDuration": "short",
-    "year": 2024,
-    "arrive": "Jul 7, 2024",
-    "depart": "Jul 14, 2024",
-    "route": 5,
-    "past": false
-  },
-  {
-    "location": "Minneapolis, MN",
-    "coordinates": [-93.265, 44.9778],
-    "stayDuration": "short",
-    "year": 2024,
-    "arrive": "Jul 14, 2024",
-    "depart": "?",
-    "route": 5,
-    "past": false
   }
 ]
