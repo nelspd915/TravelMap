@@ -664,7 +664,59 @@
     "stayDuration": "long",
     "year": 2024,
     "arrive": "May 19, 2024",
-    "depart": "Jun 23, 2024",
+    "depart": "Jun 19, 2024",
+    "route": 5,
+    "past": false
+  },
+  {
+    "location": "Boise, ID",
+    "coordinates": [-116.2023, 43.6187],
+    "customMarkerCoords": [-116.1623, 43.6187],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Jun 19, 2024",
+    "depart": "Jun 26, 2024",
+    "route": 5,
+    "past": false
+  },
+  {
+    "location": "Billings, MT",
+    "coordinates": [-108.5007, 45.7833],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Jun 27, 2024",
+    "depart": "Jul 3, 2024",
+    "route": 5,
+    "past": false
+  },
+  {
+    "location": "Bismarck, ND",
+    "coordinates": [-100.7878, 46.8042],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Jul 3, 2024",
+    "depart": "Jul 10, 2024",
+    "route": 5,
+    "past": false
+  },
+  {
+    "location": "Brainerd, MN",
+    "coordinates": [-94.202, 46.3527],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Jul 10, 2024",
+    "depart": "Jul 17, 2024",
+    "route": 5,
+    "past": false
+  },
+  {
+    "location": "Duluth, MN",
+    "coordinates": [-92.1, 46.7867],
+    "customMarkerCoords": [-91.9, 46.7867],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Jul 17, 2024",
+    "depart": "Jul 24, 2024",
     "route": 5,
     "past": false
   }
