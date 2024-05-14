@@ -166,10 +166,10 @@ function createLegend() {
         yearRange = "2024";
         break;
       case 6:
-        yearRange = "2024-25";
+        yearRange = "2024";
         break;
       case 7:
-        yearRange = "2025";
+        yearRange = "2024-25";
         break;
     }
 
