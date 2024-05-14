@@ -700,8 +700,8 @@
     "past": false
   },
   {
-    "location": "Brainerd, MN",
-    "coordinates": [-94.202, 46.3527],
+    "location": "Fergus Falls, MN",
+    "coordinates": [-96.0778, 46.2835],
     "stayDuration": "short",
     "year": 2024,
     "arrive": "Jul 10, 2024",
@@ -718,6 +718,26 @@
     "arrive": "Jul 17, 2024",
     "depart": "Jul 24, 2024",
     "route": 5,
+    "past": false
+  },
+  {
+    "location": "Wausau, WI",
+    "coordinates": [-89.6301, 44.9591],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Jul 24, 2024",
+    "depart": "Jul 31, 2024",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Minneapolis, MN",
+    "coordinates": [-93.265, 44.9778],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Jul 31, 2024",
+    "depart": "Aug 7, 2024",
+    "route": 6,
     "past": false
   }
 ]
