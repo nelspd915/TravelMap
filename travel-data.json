@@ -769,5 +769,97 @@
     "depart": "Aug 28, 2024",
     "route": 6,
     "past": false
+  },
+  {
+    "location": "Lafayette, IN",
+    "coordinates": [-86.8753, 40.4167],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Aug 28, 2024",
+    "depart": "Sep 4, 2024",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Peoria, IL",
+    "coordinates": [-89.589, 40.6936],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Sep 4, 2024",
+    "depart": "Sep 11, 2024",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Dubuque, IA",
+    "coordinates": [-90.6677, 42.5064],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Sep 11, 2024",
+    "depart": "Sep 18, 2024",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Rochester, MN",
+    "coordinates": [-92.4802, 44.0216],
+    "customMarkerCoords": [-92.4402, 44.0216],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Sep 18, 2024",
+    "depart": "Sep 25, 2024",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Viroqua, WI",
+    "coordinates": [-90.8887, 43.5569],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Sep 25, 2024",
+    "depart": "Oct 2, 2024",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Iowa City, IA",
+    "coordinates": [-91.5346, 41.6578],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Oct 2, 2024",
+    "depart": "Oct 9, 2024",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Madison, WI",
+    "coordinates": [-89.4008, 43.0722],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Oct 9, 2024",
+    "depart": "Oct 16, 2024",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "La Crosse, WI",
+    "coordinates": [-91.2519, 43.8138],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Oct 16, 2024",
+    "depart": "Oct 23, 2024",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Duluth, MN",
+    "coordinates": [-92.1, 46.7867],
+    "customMarkerCoords": [-91.86, 46.7867],
+    "stayDuration": "long",
+    "year": 2024,
+    "arrive": "Oct 23, 2024",
+    "depart": "Nov 20, 2024",
+    "route": 6,
+    "past": false
   }
 ]
