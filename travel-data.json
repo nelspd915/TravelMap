@@ -666,7 +666,7 @@
     "arrive": "May 19, 2024",
     "depart": "Jun 19, 2024",
     "route": 5,
-    "past": false
+    "past": true
   },
   {
     "location": "Boise, ID",
@@ -731,12 +731,63 @@
     "past": false
   },
   {
-    "location": "Minneapolis, MN",
-    "coordinates": [-93.265, 44.9778],
-    "stayDuration": "short",
+    "location": "St. Paul, MN",
+    "coordinates": [-93.09, 44.9537],
+    "stayDuration": "long",
     "year": 2024,
     "arrive": "Jul 31, 2024",
-    "depart": "Aug 7, 2024",
+    "depart": "Aug 31, 2024",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Rapid City, SD",
+    "coordinates": [-103.231, 44.0805],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Aug 31, 2024",
+    "depart": "Sep 4, 2024",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Livingston, MT",
+    "coordinates": [-110.56, 45.6614],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Sep 4, 2024",
+    "depart": "Sep 11, 2024",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Missoula, MT",
+    "coordinates": [-113.9883, 46.8721],
+    "customMarkerCoords": [-113.9483, 46.8721],
+    "stayDuration": "long",
+    "year": 2024,
+    "arrive": "Sep 11, 2024",
+    "depart": "Oct 12, 2024",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Grass Valley, CA",
+    "coordinates": [-121.0611, 39.2191],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Oct 13, 2024",
+    "depart": "Oct 20, 2024",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Chico, CA",
+    "coordinates": [-121.8375, 39.7285],
+    "stayDuration": "long",
+    "year": 2024,
+    "arrive": "Oct 28, 2024",
+    "depart": "Nov 27, 2024",
     "route": 6,
     "past": false
   }
