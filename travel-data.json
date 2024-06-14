@@ -790,5 +790,36 @@
     "depart": "Nov 27, 2024",
     "route": 6,
     "past": false
+  },
+  {
+    "location": "San Luis Obispo, CA",
+    "coordinates": [-120.6596, 35.2828],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Dec 4, 2024",
+    "depart": "Dec 11, 2024",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "San Diego, CA",
+    "coordinates": [-117.1611, 32.7157],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Dec 11, 2024",
+    "depart": "Dec 21, 2024",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Tucson, AZ",
+    "coordinates": [-110.9265, 32.2217],
+    "customMarkerCoords": [-110.8865, 32.2217],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Dec 26, 2024",
+    "depart": "Jan 25, 2025",
+    "route": 6,
+    "past": false
   }
 ]
