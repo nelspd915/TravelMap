@@ -677,7 +677,7 @@
     "arrive": "Jun 19, 2024",
     "depart": "Jun 26, 2024",
     "route": 5,
-    "past": false
+    "past": true
   },
   {
     "location": "Billings, MT",
@@ -687,7 +687,7 @@
     "arrive": "Jun 27, 2024",
     "depart": "Jul 3, 2024",
     "route": 5,
-    "past": false
+    "past": true
   },
   {
     "location": "Bismarck, ND",
