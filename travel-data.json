@@ -648,6 +648,13 @@
     "past": true
   },
   {
+    "location": "ROUTE_PIN",
+    "coordinates": [-114.5119, 37.615],
+    "route": 5,
+    "year": 2024,
+    "past": true
+  },
+  {
     "location": "Reno, NV",
     "coordinates": [-119.8143, 39.5299],
     "stayDuration": "long",
