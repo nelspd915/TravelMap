@@ -669,6 +669,13 @@
     "past": true
   },
   {
+    "location": "ROUTE_PIN",
+    "coordinates": [-119.0541, 43.5863],
+    "route": 5,
+    "year": 2024,
+    "past": true
+  },
+  {
     "location": "Boise, ID",
     "coordinates": [-116.2023, 43.6187],
     "customMarkerCoords": [-116.1623, 43.6187],
@@ -746,17 +753,17 @@
     "stayDuration": "short",
     "year": 2024,
     "arrive": "Aug 31, 2024",
-    "depart": "Sep 4, 2024",
+    "depart": "Sep 7, 2024",
     "route": 6,
     "past": false
   },
   {
-    "location": "Livingston, MT",
-    "coordinates": [-110.56, 45.6614],
+    "location": "Helena, MT",
+    "coordinates": [-112.0391, 46.5891],
     "stayDuration": "short",
     "year": 2024,
-    "arrive": "Sep 4, 2024",
-    "depart": "Sep 11, 2024",
+    "arrive": "Sep 7, 2024",
+    "depart": "Sep 14, 2024",
     "route": 6,
     "past": false
   },
@@ -766,60 +773,80 @@
     "customMarkerCoords": [-113.9483, 46.8721],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Sep 11, 2024",
-    "depart": "Oct 12, 2024",
+    "arrive": "Sep 14, 2024",
+    "depart": "Oct 19, 2024",
     "route": 6,
     "past": false
   },
   {
-    "location": "Grass Valley, CA",
-    "coordinates": [-121.0611, 39.2191],
+    "location": "Brainerd, MN",
+    "coordinates": [-94.202, 46.3527],
     "stayDuration": "short",
     "year": 2024,
-    "arrive": "Oct 13, 2024",
-    "depart": "Oct 20, 2024",
+    "arrive": "Oct 20, 2024",
+    "depart": "Oct 23, 2024",
     "route": 6,
     "past": false
   },
   {
-    "location": "Chico, CA",
-    "coordinates": [-121.8375, 39.7285],
+    "location": "Duluth, MN",
+    "coordinates": [-92.1, 46.7867],
+    "customMarkerCoords": [-91.5, 46.7867],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Oct 23, 2024",
+    "depart": "Oct 29, 2024",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Minneapolis, MN",
+    "coordinates": [-93.265, 44.9778],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Oct 29, 2024",
+    "depart": "Nov 3, 2024",
+    "route": 7,
+    "past": false
+  },
+  {
+    "location": "Manhattan, KS",
+    "coordinates": [-96.5717, 39.1836],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Nov 3, 2024",
+    "depart": "Nov 10, 2024",
+    "route": 7,
+    "past": false
+  },
+  {
+    "location": "Medicine Park, OK",
+    "coordinates": [-98.5026, 34.7292],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Nov 10, 2024",
+    "depart": "Nov 17, 2024",
+    "route": 7,
+    "past": false
+  },
+  {
+    "location": "Amarillo, TX",
+    "coordinates": [-101.8313, 35.222],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Nov 17, 2024",
+    "depart": "Nov 24, 2024",
+    "route": 7,
+    "past": false
+  },
+  {
+    "location": "Santa Fe, NM",
+    "coordinates": [-105.9378, 35.687],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Oct 28, 2024",
-    "depart": "Nov 27, 2024",
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "San Luis Obispo, CA",
-    "coordinates": [-120.6596, 35.2828],
-    "stayDuration": "short",
-    "year": 2024,
-    "arrive": "Dec 4, 2024",
-    "depart": "Dec 11, 2024",
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "San Diego, CA",
-    "coordinates": [-117.1611, 32.7157],
-    "stayDuration": "short",
-    "year": 2024,
-    "arrive": "Dec 11, 2024",
-    "depart": "Dec 21, 2024",
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "Tucson, AZ",
-    "coordinates": [-110.9265, 32.2217],
-    "customMarkerCoords": [-110.8865, 32.2217],
-    "stayDuration": "long",
-    "year": 2025,
-    "arrive": "Dec 26, 2024",
-    "depart": "Jan 25, 2025",
-    "route": 6,
+    "arrive": "Nov 24, 2024",
+    "depart": "Dec 28, 2024",
+    "route": 7,
     "past": false
   }
 ]
