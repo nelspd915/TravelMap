@@ -23,9 +23,9 @@ function getColorByRouteNumber(routeNumber) {
     case 5:
       return "#c14ede";
     case 6:
-      return "#ff911c";
-    case 7:
       return "#00dec8";
+    case 7:
+      return "#ff911c";
     default:
       return "#555";
   }
@@ -135,7 +135,7 @@ async function getDrivingRoute(origin, destination) {
 function createLegend() {
   const legend = document.getElementById("legend");
 
-  const routeNumbers = [7, 6, 5, 4, 3, 2, 1]; // Add more routes as needed
+  const routeNumbers = [6, 5, 4, 3, 2, 1]; // Add more routes as needed
 
   routeNumbers.forEach((routeNumber) => {
     const item = document.createElement("div");

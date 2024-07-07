@@ -711,7 +711,7 @@
     "arrive": "Jul 3, 2024",
     "depart": "Jul 10, 2024",
     "route": 5,
-    "past": false
+    "past": true
   },
   {
     "location": "Fergus Falls, MN",
@@ -755,105 +755,34 @@
     "past": false
   },
   {
-    "location": "Rapid City, SD",
-    "coordinates": [-103.231, 44.0805],
-    "stayDuration": "short",
-    "year": 2024,
-    "arrive": "Aug 31, 2024",
-    "depart": "Sep 7, 2024",
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "Helena, MT",
-    "coordinates": [-112.0391, 46.5891],
-    "stayDuration": "short",
-    "year": 2024,
-    "arrive": "Sep 7, 2024",
-    "depart": "Sep 14, 2024",
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "Missoula, MT",
-    "coordinates": [-113.9883, 46.8721],
-    "customMarkerCoords": [-113.9483, 46.8721],
-    "stayDuration": "long",
-    "year": 2024,
-    "arrive": "Sep 14, 2024",
-    "depart": "Oct 19, 2024",
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "Brainerd, MN",
-    "coordinates": [-94.202, 46.3527],
-    "stayDuration": "short",
-    "year": 2024,
-    "arrive": "Oct 20, 2024",
-    "depart": "Oct 23, 2024",
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "Duluth, MN",
-    "coordinates": [-92.1, 46.7867],
-    "customMarkerCoords": [-91.5, 46.7867],
-    "stayDuration": "short",
-    "year": 2024,
-    "arrive": "Oct 23, 2024",
-    "depart": "Oct 29, 2024",
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "Minneapolis, MN",
-    "coordinates": [-93.265, 44.9778],
-    "stayDuration": "short",
-    "year": 2024,
-    "arrive": "Oct 29, 2024",
-    "depart": "Nov 3, 2024",
-    "route": 7,
-    "past": false
-  },
-  {
-    "location": "Manhattan, KS",
-    "coordinates": [-96.5717, 39.1836],
-    "stayDuration": "short",
-    "year": 2024,
-    "arrive": "Nov 3, 2024",
-    "depart": "Nov 10, 2024",
-    "route": 7,
-    "past": false
-  },
-  {
     "location": "Medicine Park, OK",
     "coordinates": [-98.5026, 34.7292],
     "stayDuration": "short",
     "year": 2024,
-    "arrive": "Nov 10, 2024",
-    "depart": "Nov 17, 2024",
-    "route": 7,
-    "past": false
-  },
-  {
-    "location": "Amarillo, TX",
-    "coordinates": [-101.8313, 35.222],
-    "stayDuration": "short",
-    "year": 2024,
-    "arrive": "Nov 17, 2024",
-    "depart": "Nov 24, 2024",
-    "route": 7,
+    "arrive": "Sep 1, 2024",
+    "depart": "Sep 8, 2024",
+    "route": 6,
     "past": false
   },
   {
     "location": "Santa Fe, NM",
     "coordinates": [-105.9378, 35.687],
+    "stayDuration": "short",
+    "year": 2024,
+    "arrive": "Sep 8, 2024",
+    "depart": "Sep 15, 2024",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Flagstaff, AZ",
+    "coordinates": [-111.6513, 35.1983],
+    "customMarkerCoords": [-111.6113, 35.1983],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Nov 24, 2024",
-    "depart": "Dec 28, 2024",
-    "route": 7,
+    "arrive": "Sep 15, 2024",
+    "depart": "Oct 19, 2024",
+    "route": 6,
     "past": false
   }
 ]
