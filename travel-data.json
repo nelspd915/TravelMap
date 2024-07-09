@@ -781,7 +781,17 @@
     "stayDuration": "long",
     "year": 2024,
     "arrive": "Sep 15, 2024",
-    "depart": "Oct 19, 2024",
+    "depart": "Nov 27, 2024",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Sedona, AZ",
+    "coordinates": [-111.761, 34.8697],
+    "stayDuration": "long",
+    "year": 2024,
+    "arrive": "Dec 1, 2024",
+    "depart": "Jan 5, 2024",
     "route": 6,
     "past": false
   }
