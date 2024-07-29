@@ -719,9 +719,9 @@
     "stayDuration": "short",
     "year": 2024,
     "arrive": "Jul 10, 2024",
-    "depart": "Jul 17, 2024",
+    "depart": "Jul 13, 2024",
     "route": 5,
-    "past": false
+    "past": true
   },
   {
     "location": "Duluth, MN",
@@ -729,30 +729,20 @@
     "customMarkerCoords": [-91.9, 46.7867],
     "stayDuration": "short",
     "year": 2024,
-    "arrive": "Jul 17, 2024",
+    "arrive": "Jul 13, 2024",
     "depart": "Jul 24, 2024",
     "route": 5,
-    "past": false
-  },
-  {
-    "location": "Wausau, WI",
-    "coordinates": [-89.6301, 44.9591],
-    "stayDuration": "short",
-    "year": 2024,
-    "arrive": "Jul 24, 2024",
-    "depart": "Jul 31, 2024",
-    "route": 6,
-    "past": false
+    "past": true
   },
   {
     "location": "St. Paul, MN",
     "coordinates": [-93.09, 44.9537],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Jul 31, 2024",
+    "arrive": "Jul 24, 2024",
     "depart": "Aug 31, 2024",
     "route": 6,
-    "past": false
+    "past": true
   },
   {
     "location": "Medicine Park, OK",
