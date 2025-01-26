@@ -775,7 +775,7 @@
     "stayDuration": "short",
     "year": 2025,
     "arrive": "Mar 15, 2025",
-    "depart": "Mar 29, 2025",
+    "depart": "Mar 22, 2025",
     "route": 6,
     "past": false
   },
@@ -785,38 +785,28 @@
     "customMarkerCoords": [-104.7414, 38.8339],
     "stayDuration": "long",
     "year": 2025,
-    "arrive": "Mar 29, 2025",
-    "depart": "Apr 27, 2025",
+    "arrive": "Mar 22, 2025",
+    "depart": "Apr 19, 2025",
     "route": 6,
     "past": false
   },
   {
     "location": "Redlands, CA",
     "coordinates": [-117.1825, 34.0556],
-    "stayDuration": "short",
+    "stayDuration": "long",
     "year": 2025,
-    "arrive": "Apr 27, 2025",
-    "depart": "May 10, 2025",
+    "arrive": "Apr 20, 2025",
+    "depart": "May 18, 2025",
     "route": 6,
     "past": false
   },
   {
     "location": "Albuquerque, NM",
     "coordinates": [-106.6056, 35.0844],
-    "stayDuration": "short",
+    "stayDuration": "long",
     "year": 2025,
-    "arrive": "May 10, 2025",
-    "depart": "May 24, 2025",
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "Manhattan, KS",
-    "coordinates": [-96.5717, 39.1836],
-    "stayDuration": "short",
-    "year": 2025,
-    "arrive": "May 24, 2025",
-    "depart": "Jun 7, 2025",
+    "arrive": "May 18, 2025",
+    "depart": "Jun 15, 2025",
     "route": 6,
     "past": false
   },
@@ -825,8 +815,8 @@
     "coordinates": [-93.265, 44.9778],
     "stayDuration": "long",
     "year": 2025,
-    "arrive": "Jun 7, 2025",
-    "depart": "Jul 6, 2025",
+    "arrive": "Jun 14, 2025",
+    "depart": "Jun 12, 2025",
     "route": 6,
     "past": false
   }
