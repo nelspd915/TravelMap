@@ -770,11 +770,11 @@
     "past": true
   },
   {
-    "location": "Rapid City, SD",
-    "coordinates": [-103.231, 44.0805],
+    "location": "Livingston, TX",
+    "coordinates": [-94.9027, 30.7116],
     "stayDuration": "short",
     "year": 2025,
-    "arrive": "Mar 15, 2025",
+    "arrive": "Mar 16, 2025",
     "depart": "Mar 22, 2025",
     "route": 6,
     "past": false
@@ -791,32 +791,12 @@
     "past": false
   },
   {
-    "location": "Redlands, CA",
-    "coordinates": [-117.1825, 34.0556],
-    "stayDuration": "long",
+    "location": "Amarillo, TX",
+    "coordinates": [-101.8313, 35.221997],
+    "stayDuration": "short",
     "year": 2025,
     "arrive": "Apr 20, 2025",
-    "depart": "May 18, 2025",
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "Albuquerque, NM",
-    "coordinates": [-106.6056, 35.0844],
-    "stayDuration": "long",
-    "year": 2025,
-    "arrive": "May 18, 2025",
-    "depart": "Jun 14, 2025",
-    "route": 6,
-    "past": false
-  },
-  {
-    "location": "Minneapolis, MN",
-    "coordinates": [-93.265, 44.9778],
-    "stayDuration": "long",
-    "year": 2025,
-    "arrive": "Jun 14, 2025",
-    "depart": "Jul 12, 2025",
+    "depart": "Apr 27, 2025",
     "route": 6,
     "past": false
   }
