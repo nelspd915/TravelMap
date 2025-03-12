@@ -791,12 +791,12 @@
     "past": false
   },
   {
-    "location": "Amarillo, TX",
-    "coordinates": [-101.8313, 35.221997],
-    "stayDuration": "short",
+    "location": "Sedona, AZ",
+    "coordinates": [-111.7638, 34.8697],
+    "stayDuration": "long",
     "year": 2025,
     "arrive": "Apr 20, 2025",
-    "depart": "Apr 27, 2025",
+    "depart": "May 18, 2025",
     "route": 6,
     "past": false
   }
