@@ -775,8 +775,26 @@
     "stayDuration": "short",
     "year": 2025,
     "arrive": "Mar 16, 2025",
-    "depart": "Mar 22, 2025",
+    "depart": "Mar 21, 2025",
     "route": 6,
+    "past": true
+  },
+  {
+    "location": "Flagstaff, AZ",
+    "coordinates": [-111.6513, 35.1983],
+    "customMarkerCoords": [-111.5713, 35.1983],
+    "stayDuration": "short",
+    "year": 2025,
+    "arrive": "Mar 22, 2025",
+    "depart": "Apr 5, 2025",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "ROUTE_PIN",
+    "coordinates": [-108.5506, 39.0639],
+    "route": 6,
+    "year": 2025,
     "past": false
   },
   {
@@ -785,7 +803,7 @@
     "customMarkerCoords": [-104.7414, 38.8339],
     "stayDuration": "long",
     "year": 2025,
-    "arrive": "Mar 22, 2025",
+    "arrive": "Apr 6, 2025",
     "depart": "Apr 19, 2025",
     "route": 6,
     "past": false
