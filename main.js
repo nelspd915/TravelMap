@@ -41,8 +41,7 @@ async function addTravelDataToMap(map, travelData, routes) {
 
     if (destination.location !== "ROUTE_PIN") {
       // Choose the marker symbol based on the stay duration
-      const markerSymbol =
-        destination.stayDuration === "short" ? "circle" : "square";
+      const markerSymbol = destination.stayDuration === "short" ? "circle" : "square";
 
       // Create a new HTML element for the marker
       const markerElement = document.createElement("div");
@@ -50,14 +49,8 @@ async function addTravelDataToMap(map, travelData, routes) {
 
       // Add the point number as text inside the marker element
       markerElement.innerText = destNumber + 1;
-      markerElement.style.setProperty(
-        "--color",
-        getColorByRouteNumber(destination.route)
-      );
-      markerElement.style.setProperty(
-        "--outlineColor",
-        destination.past ? "#000" : "#fff"
-      );
+      markerElement.style.setProperty("--color", getColorByRouteNumber(destination.route));
+      markerElement.style.setProperty("--outlineColor", destination.past ? "#000" : "#fff");
 
       // Create a new Mapbox GL JS marker and add it to the map
       const marker = new mapboxgl.Marker(markerElement)
@@ -86,12 +79,7 @@ async function addTravelDataToMap(map, travelData, routes) {
     if (i > 0) {
       const previousDestination = travelData[i - 1];
 
-      const route =
-        routes[i - 1] ??
-        (await getDrivingRoute(
-          previousDestination.coordinates,
-          destination.coordinates
-        ));
+      const route = routes[i - 1] ?? (await getDrivingRoute(previousDestination.coordinates, destination.coordinates));
 
       allRoutes.push(route);
 
@@ -160,16 +148,16 @@ function createLegend() {
         yearRange = "2022-23";
         break;
       case 4:
-        yearRange = "2023";
+        yearRange = "2023-24";
         break;
       case 5:
-        yearRange = "2024";
+        yearRange = "2024-25";
         break;
       case 6:
-        yearRange = "2024";
+        yearRange = "2025";
         break;
       case 7:
-        yearRange = "2024-25";
+        yearRange = "2025";
         break;
     }
 
