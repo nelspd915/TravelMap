@@ -788,7 +788,7 @@
     "arrive": "Mar 22, 2025",
     "depart": "Apr 5, 2025",
     "route": 6,
-    "past": false
+    "past": true
   },
   {
     "location": "ROUTE_PIN",
@@ -801,7 +801,7 @@
     "location": "Colorado Springs, CO",
     "coordinates": [-104.8214, 38.8339],
     "customMarkerCoords": [-104.7414, 38.8339],
-    "stayDuration": "long",
+    "stayDuration": "short",
     "year": 2025,
     "arrive": "Apr 6, 2025",
     "depart": "Apr 19, 2025",
@@ -814,7 +814,28 @@
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Apr 20, 2025",
-    "depart": "May 18, 2025",
+    "depart": "May 17, 2025",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Denver, CO",
+    "coordinates": [-104.9903, 39.7392],
+    "stayDuration": "short",
+    "year": 2025,
+    "arrive": "May 18, 2025",
+    "depart": "Jun 7, 2025",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Duluth, MN",
+    "coordinates": [-92.1, 46.7867],
+    "customMarkerCoords": [-91.86, 46.7867],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Jun 8, 2025",
+    "depart": "Jul 6, 2025",
     "route": 6,
     "past": false
   }
