@@ -795,7 +795,7 @@
     "coordinates": [-108.5506, 39.0639],
     "route": 6,
     "year": 2025,
-    "past": false
+    "past": true
   },
   {
     "location": "Colorado Springs, CO",
@@ -806,7 +806,7 @@
     "arrive": "Apr 6, 2025",
     "depart": "Apr 19, 2025",
     "route": 6,
-    "past": false
+    "past": true
   },
   {
     "location": "Sedona, AZ",
@@ -816,11 +816,11 @@
     "arrive": "Apr 20, 2025",
     "depart": "May 17, 2025",
     "route": 6,
-    "past": false
+    "past": true
   },
   {
-    "location": "Denver, CO",
-    "coordinates": [-104.9903, 39.7392],
+    "location": "Eugene, OR",
+    "coordinates": [-123.0868, 44.0521],
     "stayDuration": "short",
     "year": 2025,
     "arrive": "May 18, 2025",
