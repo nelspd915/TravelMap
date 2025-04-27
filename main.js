@@ -4,10 +4,10 @@ mapboxgl.accessToken =
 
 // Initialize the map
 const map = new mapboxgl.Map({
-  container: "map", // The container ID
-  style: "mapbox://styles/mapbox/streets-v11", // The map style
-  center: [-96, 37.8], // Initial map center [longitude, latitude]
-  zoom: 4 // Initial zoom level
+  container: "map",
+  style: "mapbox://styles/mapbox/streets-v11",
+  center: [-96, 37.8],
+  zoom: 4
 });
 
 const markers = [];
@@ -35,17 +35,14 @@ function getColorByRouteNumber(routeNumber) {
 
 async function addTravelDataToMap(map, travelData, routes) {
   const allRoutes = [];
-
   let destNumber = 0;
   for (let i = 0; i < travelData.length; i++) {
     const destination = travelData[i];
 
     if (destination.location !== "ROUTE_PIN") {
       const markerSymbol = destination.stayDuration === "short" ? "circle" : "square";
-
       const markerElement = document.createElement("div");
       markerElement.className = `marker ${markerSymbol}`;
-
       markerElement.innerText = destNumber + 1;
       markerElement.style.setProperty("--color", getColorByRouteNumber(destination.route));
       markerElement.style.setProperty("--outlineColor", destination.past ? "#000" : "#fff");
@@ -53,15 +50,10 @@ async function addTravelDataToMap(map, travelData, routes) {
       const marker = new mapboxgl.Marker(markerElement)
         .setLngLat(destination.customMarkerCoords ?? destination.coordinates)
         .setPopup(
-          new mapboxgl.Popup({
-            offset: 25,
-            closeButton: false
-          }).setHTML(
-            `
-              <h3 class="popup-text">${destination.location}</h3>
-              <p class="popup-text">Arrive: ${destination.arrive}</p>
-              <p class="popup-text">Depart: ${destination.depart}</p>
-            `
+          new mapboxgl.Popup({ offset: 25, closeButton: false }).setHTML(
+            `<h3 class="popup-text">${destination.location}</h3>
+             <p class="popup-text">Arrive: ${destination.arrive}</p>
+             <p class="popup-text">Depart: ${destination.depart}</p>`
           )
         )
         .addTo(map);
@@ -70,14 +62,12 @@ async function addTravelDataToMap(map, travelData, routes) {
       markerElement.addEventListener("mouseleave", () => marker.togglePopup());
 
       markers.push({ marker, destination });
-
       destNumber += 1;
     }
 
     if (i > 0) {
       const previousDestination = travelData[i - 1];
       const route = routes[i - 1] ?? (await getDrivingRoute(previousDestination.coordinates, destination.coordinates));
-
       allRoutes.push(route);
 
       map.addLayer({
@@ -107,11 +97,9 @@ async function addTravelDataToMap(map, travelData, routes) {
 
 async function getDrivingRoute(origin, destination) {
   const url = `https://api.mapbox.com/directions/v5/mapbox/driving/${origin[0]},${origin[1]};${destination[0]},${destination[1]}?geometries=geojson&access_token=${mapboxgl.accessToken}`;
-
   const response = await fetch(url);
   const data = await response.json();
   const route = data.routes[0].geometry.coordinates;
-
   console.log(`API route request from ${origin} to ${destination}`);
   return route;
 }
@@ -163,15 +151,39 @@ function createLegend() {
   });
 }
 
+function preprocessDuplicateCoordinates() {
+  const coordMap = new Map();
+
+  for (const { destination } of markers) {
+    const key = destination.coordinates.join(",");
+    if (!coordMap.has(key)) coordMap.set(key, []);
+    coordMap.get(key).push(destination);
+  }
+
+  for (const destinations of coordMap.values()) {
+    if (destinations.length > 1) {
+      const center = destinations[0].coordinates;
+      const radius = 0.0005;
+      const angleStep = (2 * Math.PI) / destinations.length;
+
+      destinations.forEach((destination, index) => {
+        const angle = -Math.PI / 2 + index * angleStep;
+        const dx = Math.cos(angle) * radius;
+        const dy = Math.sin(angle) * radius;
+        destination.customMarkerCoords = [center[0] + dx, center[1] + dy];
+      });
+    }
+  }
+}
+
 function spreadMarkers() {
   const screenPositions = markers.map(({ marker, destination }) => {
     const pos = map.project(destination.customMarkerCoords ?? destination.coordinates);
     return { marker, destination, pos, vx: 0, vy: 0 };
   });
 
-  const minDistance = 30; // Minimum distance between markers in pixels
+  const minDistance = 30;
   const tetherStrength = 0.1;
-  const damping = 0.7;
 
   for (let iter = 0; iter < 10; iter++) {
     for (let i = 0; i < screenPositions.length; i++) {
@@ -215,6 +227,7 @@ map.on("load", async () => {
 
   createLegend();
   await addTravelDataToMap(map, travelData, routes);
+  preprocessDuplicateCoordinates();
   spreadMarkers();
 });
 
