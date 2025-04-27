@@ -167,7 +167,7 @@ function preprocessDuplicateCoordinates() {
       const angleStep = (2 * Math.PI) / destinations.length;
 
       destinations.forEach((destination, index) => {
-        const angle = -Math.PI / 2 + index * angleStep;
+        const angle = Math.PI - index * angleStep; // Start at 9 o'clock and go clockwise
         const dx = Math.cos(angle) * radius;
         const dy = Math.sin(angle) * radius;
         destination.customMarkerCoords = [center[0] + dx, center[1] + dy];
