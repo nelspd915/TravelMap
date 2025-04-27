@@ -172,15 +172,18 @@ function spiderfyMarkers() {
     }
 
     if (cluster.length > 1) {
-      const centerX = cluster.reduce((sum, obj) => sum + obj.point.x, 0) / cluster.length;
-      const centerY = cluster.reduce((sum, obj) => sum + obj.point.y, 0) / cluster.length;
-      const angleStep = (2 * Math.PI) / cluster.length;
+      // Sort points: north to south, then east to west
+      cluster.sort((a, b) => b.point.y - a.point.y || a.point.x - b.point.x);
+
+      const spreadDistance = 20;
 
       cluster.forEach((obj, idx) => {
-        const angle = idx * angleStep;
-        const offsetX = 20 * Math.cos(angle);
-        const offsetY = 20 * Math.sin(angle);
-        const newPoint = { x: centerX + offsetX, y: centerY + offsetY };
+        const offsetX = ((idx % 3) - 1) * spreadDistance; // -1, 0, 1
+        const offsetY = (Math.floor(idx / 3) - 1) * spreadDistance; // -1, 0, 1
+        const newPoint = {
+          x: obj.point.x + offsetX,
+          y: obj.point.y + offsetY
+        };
         const newLngLat = map.unproject(newPoint);
         obj.marker.setLngLat(newLngLat);
       });
