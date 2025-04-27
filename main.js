@@ -10,6 +10,8 @@ const map = new mapboxgl.Map({
   zoom: 4 // Initial zoom level
 });
 
+const markers = [];
+
 function getColorByRouteNumber(routeNumber) {
   switch (routeNumber) {
     case 1:
@@ -72,6 +74,8 @@ async function addTravelDataToMap(map, travelData, routes) {
       markerElement.addEventListener("mouseenter", () => marker.togglePopup());
       markerElement.addEventListener("mouseleave", () => marker.togglePopup());
 
+      markers.push({ marker, destination });
+
       destNumber += 1;
     }
 
@@ -83,7 +87,6 @@ async function addTravelDataToMap(map, travelData, routes) {
 
       allRoutes.push(route);
 
-      // Create a line between the current destination and the previous one
       map.addLayer({
         id: `route-${i}`,
         type: "line",
@@ -123,7 +126,7 @@ async function getDrivingRoute(origin, destination) {
 function createLegend() {
   const legend = document.getElementById("legend");
 
-  const routeNumbers = [6, 5, 4, 3, 2, 1]; // Add more routes as needed
+  const routeNumbers = [6, 5, 4, 3, 2, 1];
 
   routeNumbers.forEach((routeNumber) => {
     const item = document.createElement("div");
@@ -169,10 +172,65 @@ function createLegend() {
   });
 }
 
+function spreadMarkers() {
+  const screenPositions = markers.map(({ marker, destination }) => {
+    const pos = map.project(destination.customMarkerCoords ?? destination.coordinates);
+    return { marker, destination, pos, vx: 0, vy: 0 };
+  });
+
+  const repulsionStrength = 1000; // adjust as needed
+  const tetherStrength = 0.1;
+  const damping = 0.9;
+
+  for (let iter = 0; iter < 10; iter++) {
+    for (let i = 0; i < screenPositions.length; i++) {
+      const a = screenPositions[i];
+      for (let j = i + 1; j < screenPositions.length; j++) {
+        const b = screenPositions[j];
+        const dx = b.pos.x - a.pos.x;
+        const dy = b.pos.y - a.pos.y;
+        const distSq = dx * dx + dy * dy;
+        if (distSq < 4000 && distSq > 0.01) {
+          const dist = Math.sqrt(distSq);
+          const force = repulsionStrength / distSq;
+          const fx = force * (dx / dist);
+          const fy = force * (dy / dist);
+          a.vx -= fx;
+          a.vy -= fy;
+          b.vx += fx;
+          b.vy += fy;
+        }
+      }
+    }
+
+    for (const p of screenPositions) {
+      const origin = map.project(p.destination.customMarkerCoords ?? p.destination.coordinates);
+      p.vx += (origin.x - p.pos.x) * tetherStrength;
+      p.vy += (origin.y - p.pos.y) * tetherStrength;
+
+      p.vx *= damping;
+      p.vy *= damping;
+
+      p.pos.x += p.vx;
+      p.pos.y += p.vy;
+    }
+  }
+
+  for (const p of screenPositions) {
+    const newLngLat = map.unproject([p.pos.x, p.pos.y]);
+    p.marker.setLngLat(newLngLat);
+  }
+}
+
 map.on("load", async () => {
   const travelData = await (await fetch("./travel-data.json")).json();
   const routes = await (await fetch("./routes.json")).json();
 
   createLegend();
-  addTravelDataToMap(map, travelData, routes);
+  await addTravelDataToMap(map, travelData, routes);
+  spreadMarkers();
+});
+
+map.on("move", () => {
+  spreadMarkers();
 });

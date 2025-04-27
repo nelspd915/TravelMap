@@ -2,7 +2,6 @@
   {
     "location": "Duluth, MN",
     "coordinates": [-92.1, 46.7867],
-    "customMarkerCoords": [-92.1, 46.7867],
     "stayDuration": "long",
     "year": 2020,
     "arrive": "Hometown",
@@ -50,7 +49,6 @@
   {
     "location": "Duluth, MN",
     "coordinates": [-92.1, 46.7867],
-    "customMarkerCoords": [-92.06, 46.7867],
     "stayDuration": "long",
     "year": 2021,
     "arrive": "May 30, 2021",
@@ -280,7 +278,6 @@
   {
     "location": "Duluth, MN",
     "coordinates": [-92.1, 46.7867],
-    "customMarkerCoords": [-92.02, 46.7867],
     "stayDuration": "long",
     "year": 2022,
     "arrive": "Jul 31, 2022",
@@ -517,7 +514,6 @@
   {
     "location": "Duluth, MN",
     "coordinates": [-92.1, 46.7867],
-    "customMarkerCoords": [-91.98, 46.7867],
     "stayDuration": "long",
     "year": 2023,
     "arrive": "May 13, 2023",
@@ -538,7 +534,6 @@
   {
     "location": "Duluth, MN",
     "coordinates": [-92.1, 46.7867],
-    "customMarkerCoords": [-91.94, 46.7867],
     "stayDuration": "short",
     "year": 2023,
     "arrive": "Jul 1, 2023",
@@ -667,7 +662,6 @@
   {
     "location": "Salem, OR",
     "coordinates": [-123.0351, 44.9429],
-    "customMarkerCoords": [-122.9951, 44.9429],
     "stayDuration": "long",
     "year": 2024,
     "arrive": "May 19, 2024",
@@ -685,7 +679,6 @@
   {
     "location": "Boise, ID",
     "coordinates": [-116.2023, 43.6187],
-    "customMarkerCoords": [-116.1623, 43.6187],
     "stayDuration": "short",
     "year": 2024,
     "arrive": "Jun 19, 2024",
@@ -726,7 +719,6 @@
   {
     "location": "Duluth, MN",
     "coordinates": [-92.1, 46.7867],
-    "customMarkerCoords": [-91.9, 46.7867],
     "stayDuration": "short",
     "year": 2024,
     "arrive": "Jul 13, 2024",
@@ -761,7 +753,6 @@
   {
     "location": "Flagstaff, AZ",
     "coordinates": [-111.6513, 35.1983],
-    "customMarkerCoords": [-111.6113, 35.1983],
     "stayDuration": "long",
     "year": 2024,
     "arrive": "Sep 15, 2024",
@@ -782,7 +773,6 @@
   {
     "location": "Flagstaff, AZ",
     "coordinates": [-111.6513, 35.1983],
-    "customMarkerCoords": [-111.5713, 35.1983],
     "stayDuration": "short",
     "year": 2025,
     "arrive": "Mar 22, 2025",
@@ -800,7 +790,6 @@
   {
     "location": "Colorado Springs, CO",
     "coordinates": [-104.8214, 38.8339],
-    "customMarkerCoords": [-104.7414, 38.8339],
     "stayDuration": "short",
     "year": 2025,
     "arrive": "Apr 6, 2025",
@@ -831,7 +820,6 @@
   {
     "location": "Missoula, MT",
     "coordinates": [-113.9883, 46.8721],
-    "customMarkerCoords": [-113.9283, 46.8721],
     "stayDuration": "short",
     "year": 2025,
     "arrive": "Jun 1, 2025",
@@ -842,7 +830,6 @@
   {
     "location": "Duluth, MN",
     "coordinates": [-92.1, 46.7867],
-    "customMarkerCoords": [-91.86, 46.7867],
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Jun 8, 2025",
