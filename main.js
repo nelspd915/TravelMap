@@ -4,7 +4,6 @@ mapboxgl.accessToken =
   "pk.eyJ1IjoibmVsc2RhbmllbHNvbiIsImEiOiJjbG1yeWVwbHcwYTF6Mmtxa3gyM3A5ODVlIn0.e46YsOUg6wrY80FkhHATDw";
 
 const markers = []; // Track all markers
-const leaderLineFeatures = []; // Track leader lines
 
 // Initialize the map
 const map = new mapboxgl.Map({
@@ -154,9 +153,6 @@ function spiderfyMarkers() {
     return { marker, originalLngLat, point };
   });
 
-  // Reset leader lines
-  leaderLineFeatures.length = 0;
-
   for (let i = 0; i < projectedPoints.length; i++) {
     const { marker, originalLngLat, point } = projectedPoints[i];
     let closeMarkers = [projectedPoints[i]];
@@ -179,48 +175,18 @@ function spiderfyMarkers() {
         const angle = idx * angleStep;
         const offsetX = 20 * Math.cos(angle);
         const offsetY = 20 * Math.sin(angle);
-        const newPoint = { x: point.x + offsetX, y: point.y + offsetY };
+        const newPoint = { x: obj.point.x + offsetX, y: obj.point.y + offsetY };
         const newLngLat = map.unproject(newPoint);
 
         obj.marker.setLngLat(newLngLat);
-
-        leaderLineFeatures.push({
-          type: "Feature",
-          geometry: {
-            type: "LineString",
-            coordinates: [
-              [obj.originalLngLat.lng, obj.originalLngLat.lat],
-              [newLngLat.lng, newLngLat.lat]
-            ]
-          }
-        });
       });
     } else {
       marker.setLngLat(originalLngLat);
     }
   }
-
-  if (map.getSource("leader-lines")) {
-    map.getSource("leader-lines").setData({ type: "FeatureCollection", features: leaderLineFeatures });
-  }
 }
 
 map.on("load", async () => {
-  map.addSource("leader-lines", {
-    type: "geojson",
-    data: { type: "FeatureCollection", features: [] }
-  });
-
-  map.addLayer({
-    id: "leader-lines-layer",
-    type: "line",
-    source: "leader-lines",
-    paint: {
-      "line-color": "#555",
-      "line-width": 1
-    }
-  });
-
   const travelData = await (await fetch("./travel-data.json")).json();
   const routes = await (await fetch("./routes.json")).json();
 
