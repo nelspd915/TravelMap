@@ -1,13 +1,17 @@
+// main.js
 // Set your Mapbox access token
 mapboxgl.accessToken =
   "pk.eyJ1IjoibmVsc2RhbmllbHNvbiIsImEiOiJjbG1yeWVwbHcwYTF6Mmtxa3gyM3A5ODVlIn0.e46YsOUg6wrY80FkhHATDw";
 
+const markers = []; // Track all markers
+const leaderLineFeatures = []; // Track leader lines
+
 // Initialize the map
 const map = new mapboxgl.Map({
-  container: "map", // The container ID
-  style: "mapbox://styles/mapbox/streets-v11", // The map style
-  center: [-96, 37.8], // Initial map center [longitude, latitude]
-  zoom: 4 // Initial zoom level
+  container: "map",
+  style: "mapbox://styles/mapbox/streets-v11",
+  center: [-96, 37.8],
+  zoom: 4
 });
 
 function getColorByRouteNumber(routeNumber) {
@@ -33,38 +37,25 @@ function getColorByRouteNumber(routeNumber) {
 
 async function addTravelDataToMap(map, travelData, routes) {
   const allRoutes = [];
-
-  // Iterate through the travel data
   let destNumber = 0;
   for (let i = 0; i < travelData.length; i++) {
     const destination = travelData[i];
 
     if (destination.location !== "ROUTE_PIN") {
-      // Choose the marker symbol based on the stay duration
       const markerSymbol = destination.stayDuration === "short" ? "circle" : "square";
-
-      // Create a new HTML element for the marker
       const markerElement = document.createElement("div");
       markerElement.className = `marker ${markerSymbol}`;
-
-      // Add the point number as text inside the marker element
       markerElement.innerText = destNumber + 1;
       markerElement.style.setProperty("--color", getColorByRouteNumber(destination.route));
       markerElement.style.setProperty("--outlineColor", destination.past ? "#000" : "#fff");
 
-      // Create a new Mapbox GL JS marker and add it to the map
       const marker = new mapboxgl.Marker(markerElement)
         .setLngLat(destination.customMarkerCoords ?? destination.coordinates)
         .setPopup(
-          new mapboxgl.Popup({
-            offset: 25,
-            closeButton: false
-          }).setHTML(
-            `
-              <h3 class="popup-text">${destination.location}</h3>
-              <p class="popup-text">Arrive: ${destination.arrive}</p>
-              <p class="popup-text">Depart: ${destination.depart}</p>
-            `
+          new mapboxgl.Popup({ offset: 25, closeButton: false }).setHTML(
+            `<h3 class="popup-text">${destination.location}</h3>
+             <p class="popup-text">Arrive: ${destination.arrive}</p>
+             <p class="popup-text">Depart: ${destination.depart}</p>`
           )
         )
         .addTo(map);
@@ -72,18 +63,16 @@ async function addTravelDataToMap(map, travelData, routes) {
       markerElement.addEventListener("mouseenter", () => marker.togglePopup());
       markerElement.addEventListener("mouseleave", () => marker.togglePopup());
 
+      markers.push({ marker, originalLngLat: destination.customMarkerCoords ?? destination.coordinates });
+
       destNumber += 1;
     }
 
-    // Add a line between the current destination and the previous one
     if (i > 0) {
       const previousDestination = travelData[i - 1];
-
       const route = routes[i - 1] ?? (await getDrivingRoute(previousDestination.coordinates, destination.coordinates));
-
       allRoutes.push(route);
 
-      // Create a line between the current destination and the previous one
       map.addLayer({
         id: `route-${i}`,
         type: "line",
@@ -91,10 +80,7 @@ async function addTravelDataToMap(map, travelData, routes) {
           type: "geojson",
           data: {
             type: "Feature",
-            geometry: {
-              type: "LineString",
-              coordinates: route
-            }
+            geometry: { type: "LineString", coordinates: route }
           }
         },
         paint: {
@@ -107,36 +93,29 @@ async function addTravelDataToMap(map, travelData, routes) {
   }
 
   console.log("Routes: ", JSON.stringify(allRoutes));
+  spiderfyMarkers();
 }
 
 async function getDrivingRoute(origin, destination) {
   const url = `https://api.mapbox.com/directions/v5/mapbox/driving/${origin[0]},${origin[1]};${destination[0]},${destination[1]}?geometries=geojson&access_token=${mapboxgl.accessToken}`;
-
   const response = await fetch(url);
   const data = await response.json();
   const route = data.routes[0].geometry.coordinates;
-
   console.log(`API route request from ${origin} to ${destination}`);
   return route;
 }
 
 function createLegend() {
   const legend = document.getElementById("legend");
-
-  const routeNumbers = [6, 5, 4, 3, 2, 1]; // Add more routes as needed
-
+  const routeNumbers = [6, 5, 4, 3, 2, 1];
   routeNumbers.forEach((routeNumber) => {
     const item = document.createElement("div");
     item.className = "legend-item";
-
     const color = document.createElement("div");
     color.className = "legend-color";
     color.style.backgroundColor = getColorByRouteNumber(routeNumber);
-
     const label = document.createElement("span");
-
     let yearRange = "";
-
     switch (routeNumber) {
       case 1:
         yearRange = "2020-21";
@@ -160,19 +139,95 @@ function createLegend() {
         yearRange = "2025";
         break;
     }
-
     label.innerText = `Route ${routeNumber} (${yearRange})`;
-
     item.appendChild(color);
     item.appendChild(label);
     legend.prepend(item);
   });
 }
 
+function spiderfyMarkers() {
+  const pixelThreshold = 30; // distance in pixels to consider "too close"
+  const mapCanvas = map.getCanvas();
+  const projectedPoints = markers.map(({ marker, originalLngLat }) => {
+    const point = map.project(originalLngLat);
+    return { marker, originalLngLat, point };
+  });
+
+  // Reset leader lines
+  leaderLineFeatures.length = 0;
+
+  for (let i = 0; i < projectedPoints.length; i++) {
+    const { marker, originalLngLat, point } = projectedPoints[i];
+    let closeMarkers = [projectedPoints[i]];
+
+    for (let j = 0; j < projectedPoints.length; j++) {
+      if (i !== j) {
+        const otherPoint = projectedPoints[j];
+        const dx = point.x - otherPoint.point.x;
+        const dy = point.y - otherPoint.point.y;
+        const distance = Math.sqrt(dx * dx + dy * dy);
+        if (distance < pixelThreshold) {
+          closeMarkers.push(otherPoint);
+        }
+      }
+    }
+
+    if (closeMarkers.length > 1) {
+      const angleStep = (2 * Math.PI) / closeMarkers.length;
+      closeMarkers.forEach((obj, idx) => {
+        const angle = idx * angleStep;
+        const offsetX = 20 * Math.cos(angle);
+        const offsetY = 20 * Math.sin(angle);
+        const newPoint = { x: point.x + offsetX, y: point.y + offsetY };
+        const newLngLat = map.unproject(newPoint);
+
+        obj.marker.setLngLat(newLngLat);
+
+        leaderLineFeatures.push({
+          type: "Feature",
+          geometry: {
+            type: "LineString",
+            coordinates: [
+              [obj.originalLngLat.lng, obj.originalLngLat.lat],
+              [newLngLat.lng, newLngLat.lat]
+            ]
+          }
+        });
+      });
+    } else {
+      marker.setLngLat(originalLngLat);
+    }
+  }
+
+  if (map.getSource("leader-lines")) {
+    map.getSource("leader-lines").setData({ type: "FeatureCollection", features: leaderLineFeatures });
+  }
+}
+
 map.on("load", async () => {
+  map.addSource("leader-lines", {
+    type: "geojson",
+    data: { type: "FeatureCollection", features: [] }
+  });
+
+  map.addLayer({
+    id: "leader-lines-layer",
+    type: "line",
+    source: "leader-lines",
+    paint: {
+      "line-color": "#555",
+      "line-width": 1
+    }
+  });
+
   const travelData = await (await fetch("./travel-data.json")).json();
   const routes = await (await fetch("./routes.json")).json();
 
   createLegend();
   addTravelDataToMap(map, travelData, routes);
+});
+
+map.on("moveend", () => {
+  spiderfyMarkers();
 });
