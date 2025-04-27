@@ -36,25 +36,20 @@ function getColorByRouteNumber(routeNumber) {
 async function addTravelDataToMap(map, travelData, routes) {
   const allRoutes = [];
 
-  // Iterate through the travel data
   let destNumber = 0;
   for (let i = 0; i < travelData.length; i++) {
     const destination = travelData[i];
 
     if (destination.location !== "ROUTE_PIN") {
-      // Choose the marker symbol based on the stay duration
       const markerSymbol = destination.stayDuration === "short" ? "circle" : "square";
 
-      // Create a new HTML element for the marker
       const markerElement = document.createElement("div");
       markerElement.className = `marker ${markerSymbol}`;
 
-      // Add the point number as text inside the marker element
       markerElement.innerText = destNumber + 1;
       markerElement.style.setProperty("--color", getColorByRouteNumber(destination.route));
       markerElement.style.setProperty("--outlineColor", destination.past ? "#000" : "#fff");
 
-      // Create a new Mapbox GL JS marker and add it to the map
       const marker = new mapboxgl.Marker(markerElement)
         .setLngLat(destination.customMarkerCoords ?? destination.coordinates)
         .setPopup(
@@ -79,10 +74,8 @@ async function addTravelDataToMap(map, travelData, routes) {
       destNumber += 1;
     }
 
-    // Add a line between the current destination and the previous one
     if (i > 0) {
       const previousDestination = travelData[i - 1];
-
       const route = routes[i - 1] ?? (await getDrivingRoute(previousDestination.coordinates, destination.coordinates));
 
       allRoutes.push(route);
@@ -125,7 +118,6 @@ async function getDrivingRoute(origin, destination) {
 
 function createLegend() {
   const legend = document.getElementById("legend");
-
   const routeNumbers = [6, 5, 4, 3, 2, 1];
 
   routeNumbers.forEach((routeNumber) => {
@@ -137,7 +129,6 @@ function createLegend() {
     color.style.backgroundColor = getColorByRouteNumber(routeNumber);
 
     const label = document.createElement("span");
-
     let yearRange = "";
 
     switch (routeNumber) {
@@ -178,9 +169,9 @@ function spreadMarkers() {
     return { marker, destination, pos, vx: 0, vy: 0 };
   });
 
-  const repulsionStrength = 1000; // adjust as needed
+  const minDistance = 30; // Minimum distance between markers in pixels
   const tetherStrength = 0.1;
-  const damping = 0.9;
+  const damping = 0.7;
 
   for (let iter = 0; iter < 10; iter++) {
     for (let i = 0; i < screenPositions.length; i++) {
@@ -190,29 +181,25 @@ function spreadMarkers() {
         const dx = b.pos.x - a.pos.x;
         const dy = b.pos.y - a.pos.y;
         const distSq = dx * dx + dy * dy;
-        if (distSq < 4000 && distSq > 0.01) {
+
+        if (distSq < minDistance * minDistance && distSq > 0) {
           const dist = Math.sqrt(distSq);
-          const force = repulsionStrength / distSq;
-          const fx = force * (dx / dist);
-          const fy = force * (dy / dist);
-          a.vx -= fx;
-          a.vy -= fy;
-          b.vx += fx;
-          b.vy += fy;
+          const overlap = (minDistance - dist) / 2;
+          const offsetX = (dx / dist) * overlap;
+          const offsetY = (dy / dist) * overlap;
+
+          a.pos.x -= offsetX;
+          a.pos.y -= offsetY;
+          b.pos.x += offsetX;
+          b.pos.y += offsetY;
         }
       }
     }
 
     for (const p of screenPositions) {
       const origin = map.project(p.destination.customMarkerCoords ?? p.destination.coordinates);
-      p.vx += (origin.x - p.pos.x) * tetherStrength;
-      p.vy += (origin.y - p.pos.y) * tetherStrength;
-
-      p.vx *= damping;
-      p.vy *= damping;
-
-      p.pos.x += p.vx;
-      p.pos.y += p.vy;
+      p.pos.x += (origin.x - p.pos.x) * tetherStrength;
+      p.pos.y += (origin.y - p.pos.y) * tetherStrength;
     }
   }
 
