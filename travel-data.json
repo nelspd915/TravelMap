@@ -824,6 +824,17 @@
     "stayDuration": "short",
     "year": 2025,
     "arrive": "May 18, 2025",
+    "depart": "May 31, 2025",
+    "route": 6,
+    "past": false
+  },
+  {
+    "location": "Missoula, MT",
+    "coordinates": [-113.9883, 46.8721],
+    "customMarkerCoords": [-113.9283, 46.8721],
+    "stayDuration": "short",
+    "year": 2025,
+    "arrive": "Jun 1, 2025",
     "depart": "Jun 7, 2025",
     "route": 6,
     "past": false
