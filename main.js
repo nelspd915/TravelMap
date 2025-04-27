@@ -146,42 +146,46 @@ function createLegend() {
 }
 
 function spiderfyMarkers() {
-  const pixelThreshold = 30; // distance in pixels to consider "too close"
-  const mapCanvas = map.getCanvas();
+  const pixelThreshold = 30;
   const projectedPoints = markers.map(({ marker, originalLngLat }) => {
     const point = map.project(originalLngLat);
     return { marker, originalLngLat, point };
   });
 
+  const clustered = new Set();
+
   for (let i = 0; i < projectedPoints.length; i++) {
-    const { marker, originalLngLat, point } = projectedPoints[i];
-    let closeMarkers = [projectedPoints[i]];
+    if (clustered.has(i)) continue;
+
+    const cluster = [projectedPoints[i]];
 
     for (let j = 0; j < projectedPoints.length; j++) {
-      if (i !== j) {
-        const otherPoint = projectedPoints[j];
-        const dx = point.x - otherPoint.point.x;
-        const dy = point.y - otherPoint.point.y;
+      if (i !== j && !clustered.has(j)) {
+        const dx = projectedPoints[i].point.x - projectedPoints[j].point.x;
+        const dy = projectedPoints[i].point.y - projectedPoints[j].point.y;
         const distance = Math.sqrt(dx * dx + dy * dy);
         if (distance < pixelThreshold) {
-          closeMarkers.push(otherPoint);
+          cluster.push(projectedPoints[j]);
+          clustered.add(j);
         }
       }
     }
 
-    if (closeMarkers.length > 1) {
-      const angleStep = (2 * Math.PI) / closeMarkers.length;
-      closeMarkers.forEach((obj, idx) => {
+    if (cluster.length > 1) {
+      const centerX = cluster.reduce((sum, obj) => sum + obj.point.x, 0) / cluster.length;
+      const centerY = cluster.reduce((sum, obj) => sum + obj.point.y, 0) / cluster.length;
+      const angleStep = (2 * Math.PI) / cluster.length;
+
+      cluster.forEach((obj, idx) => {
         const angle = idx * angleStep;
         const offsetX = 20 * Math.cos(angle);
         const offsetY = 20 * Math.sin(angle);
-        const newPoint = { x: obj.point.x + offsetX, y: obj.point.y + offsetY };
+        const newPoint = { x: centerX + offsetX, y: centerY + offsetY };
         const newLngLat = map.unproject(newPoint);
-
         obj.marker.setLngLat(newLngLat);
       });
     } else {
-      marker.setLngLat(originalLngLat);
+      projectedPoints[i].marker.setLngLat(projectedPoints[i].originalLngLat);
     }
   }
 }
