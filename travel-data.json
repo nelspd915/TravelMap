@@ -114,6 +114,13 @@
     "past": true
   },
   {
+    "location": "ROUTE_PIN",
+    "coordinates": [-102.3582, 33.1535],
+    "year": 2022,
+    "route": 2,
+    "past": true
+  },
+  {
     "location": "Alamogordo, NM",
     "coordinates": [-105.9603, 32.8995],
     "stayDuration": "short",
@@ -250,7 +257,7 @@
   },
   {
     "location": "New Underwood, SD",
-    "coordinates": [-102.7996, 44.1152],
+    "coordinates": [-102.8363, 44.0933],
     "stayDuration": "short",
     "year": 2022,
     "arrive": "Jun 19, 2022",
@@ -317,7 +324,7 @@
   },
   {
     "location": "Bay St. Louis, MS",
-    "coordinates": [-89.2973, 30.3089],
+    "coordinates": [-89.3238, 30.3102],
     "stayDuration": "short",
     "year": 2022,
     "arrive": "Dec 17, 2022",
@@ -347,7 +354,7 @@
   },
   {
     "location": "El Paso, TX",
-    "coordinates": [-106.4425, 31.7619],
+    "coordinates": [-106.485, 31.7619],
     "stayDuration": "short",
     "year": 2023,
     "arrive": "Feb 4, 2023",
@@ -372,6 +379,13 @@
     "year": 2023,
     "arrive": "Feb 18, 2023",
     "depart": "Mar 18, 2023",
+    "route": 3,
+    "past": true
+  },
+  {
+    "location": "ROUTE_PIN",
+    "coordinates": [-118.104, 34.5794],
+    "year": 2023,
     "route": 3,
     "past": true
   },
@@ -562,6 +576,13 @@
     "past": true
   },
   {
+    "location": "ROUTE_PIN",
+    "coordinates": [-75.6624, 41.4085],
+    "route": 4,
+    "year": 2023,
+    "past": true
+  },
+  {
     "location": "Asheville, NC",
     "coordinates": [-82.5515, 35.5951],
     "stayDuration": "long",
@@ -630,6 +651,13 @@
     "arrive": "Feb 25, 2024",
     "depart": "Mar 23, 2024",
     "route": 5,
+    "past": true
+  },
+  {
+    "location": "ROUTE_PIN",
+    "coordinates": [-105.5107, 39.96],
+    "route": 5,
+    "year": 2024,
     "past": true
   },
   {
@@ -755,7 +783,7 @@
     "coordinates": [-111.6513, 35.1983],
     "stayDuration": "long",
     "year": 2024,
-    "arrive": "Sep 15, 2024",
+    "arrive": "Sep 2, 2024",
     "depart": "Mar 15, 2025",
     "route": 5,
     "past": true
