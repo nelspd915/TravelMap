@@ -106,7 +106,7 @@ async function getDrivingRoute(origin, destination) {
 
 function createLegend() {
   const legend = document.getElementById("legend");
-  const routeNumbers = [6, 5, 4, 3, 2, 1];
+  const routeNumbers = [7, 6, 5, 4, 3, 2, 1];
 
   routeNumbers.forEach((routeNumber) => {
     const item = document.createElement("div");

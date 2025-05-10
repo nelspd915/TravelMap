@@ -864,5 +864,25 @@
     "depart": "Jul 6, 2025",
     "route": 6,
     "past": false
+  },
+  {
+    "location": "Pittsburgh, PA",
+    "coordinates": [-79.9959, 40.4406],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Jul 6, 2025",
+    "depart": "Aug 2, 2025",
+    "route": 7,
+    "past": false
+  },
+  {
+    "location": "New York, NY",
+    "coordinates": [-74.006, 40.7128],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Aug 2, 2025",
+    "depart": "Sep 1, 2025",
+    "route": 7,
+    "past": false
   }
 ]
