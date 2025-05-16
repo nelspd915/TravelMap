@@ -861,8 +861,18 @@
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Jun 8, 2025",
-    "depart": "Jul 6, 2025",
+    "depart": "Jul 5, 2025",
     "route": 6,
+    "past": false
+  },
+  {
+    "location": "Bay City, MI",
+    "coordinates": [-83.895, 43.5906],
+    "stayDuration": "short",
+    "year": 2025,
+    "arrive": "Jul 6, 2025",
+    "depart": "Jul 13, 2025",
+    "route": 7,
     "past": false
   },
   {
@@ -870,9 +880,26 @@
     "coordinates": [-79.9959, 40.4406],
     "stayDuration": "long",
     "year": 2025,
-    "arrive": "Jul 6, 2025",
-    "depart": "Aug 2, 2025",
+    "arrive": "Jul 13, 2025",
+    "depart": "Aug 9, 2025",
     "route": 7,
+    "past": false
+  },
+  {
+    "location": "Portsmouth, NH",
+    "coordinates": [-70.7563, 43.0711],
+    "stayDuration": "short",
+    "year": 2025,
+    "arrive": "Aug 10, 2025",
+    "depart": "Aug 17, 2025",
+    "route": 7,
+    "past": false
+  },
+  {
+    "location": "ROUTE_PIN",
+    "coordinates": [-71.4128, 41.824],
+    "route": 7,
+    "year": 2025,
     "past": false
   },
   {
@@ -880,8 +907,18 @@
     "coordinates": [-74.006, 40.7128],
     "stayDuration": "long",
     "year": 2025,
-    "arrive": "Aug 2, 2025",
-    "depart": "Sep 1, 2025",
+    "arrive": "Aug 17, 2025",
+    "depart": "Sep 13, 2025",
+    "route": 7,
+    "past": false
+  },
+  {
+    "location": "Burlington, VT",
+    "coordinates": [-73.2121, 44.4759],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Sep 21, 2025",
+    "depart": "Oct 18, 2025",
     "route": 7,
     "past": false
   }
