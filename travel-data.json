@@ -921,5 +921,25 @@
     "depart": "Oct 18, 2025",
     "route": 7,
     "past": false
+  },
+  {
+    "location": "Philadelphia, PA",
+    "coordinates": [-75.1652, 39.9526],
+    "stayDuration": "short",
+    "year": 2025,
+    "arrive": "Oct 18, 2025",
+    "depart": "Oct 26, 2025",
+    "route": 7,
+    "past": false
+  },
+  {
+    "location": "Alexandria, VA",
+    "coordinates": [-77.0469, 38.8048],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Oct 26, 2025",
+    "depart": "Nov 23, 2025",
+    "route": 7,
+    "past": false
   }
 ]
