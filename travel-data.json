@@ -876,13 +876,30 @@
     "past": false
   },
   {
-    "location": "New York, NY",
-    "coordinates": [-74.006, 40.7128],
+    "location": "Portland, OR",
+    "coordinates": [-122.6762, 45.5235],
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Aug 10, 2025",
     "depart": "Sep 13, 2025",
     "route": 7,
+    "past": false
+  },
+  {
+    "location": "Duluth, MN",
+    "coordinates": [-92.1, 46.7867],
+    "stayDuration": "short",
+    "year": 2025,
+    "arrive": "Sep 15, 2025",
+    "depart": "Sep 20, 2025",
+    "route": 7,
+    "past": false
+  },
+  {
+    "location": "ROUTE_PIN",
+    "coordinates": [-81.6954, 41.4995],
+    "route": 7,
+    "year": 2025,
     "past": false
   },
   {
@@ -892,6 +909,26 @@
     "year": 2025,
     "arrive": "Sep 21, 2025",
     "depart": "Oct 25, 2025",
+    "route": 7,
+    "past": false
+  },
+  {
+    "location": "Alexandria, VA",
+    "coordinates": [-77.0469, 38.8048],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Oct 26, 2025",
+    "depart": "Nov 26, 2025",
+    "route": 7,
+    "past": false
+  },
+  {
+    "location": "New York, NY",
+    "coordinates": [-74.006, 40.7128],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Nov 30, 2025",
+    "depart": "Jan 3, 2026",
     "route": 7,
     "past": false
   }
