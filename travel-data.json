@@ -886,39 +886,32 @@
     "past": false
   },
   {
+    "location": "Grand Junction, CO",
+    "coordinates": [-108.5506, 39.0639],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Sep 14, 2025",
+    "depart": "Oct 18, 2025",
+    "route": 7,
+    "past": false
+  },
+  {
+    "location": "Madison, WI",
+    "coordinates": [-89.4012, 43.0731],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Oct 19, 2025",
+    "depart": "Nov 22, 2025",
+    "route": 7,
+    "past": false
+  },
+  {
     "location": "Duluth, MN",
     "coordinates": [-92.1, 46.7867],
     "stayDuration": "short",
     "year": 2025,
-    "arrive": "Sep 15, 2025",
-    "depart": "Sep 20, 2025",
-    "route": 7,
-    "past": false
-  },
-  {
-    "location": "ROUTE_PIN",
-    "coordinates": [-81.6954, 41.4995],
-    "route": 7,
-    "year": 2025,
-    "past": false
-  },
-  {
-    "location": "Burlington, VT",
-    "coordinates": [-73.2121, 44.4759],
-    "stayDuration": "long",
-    "year": 2025,
-    "arrive": "Sep 21, 2025",
-    "depart": "Oct 25, 2025",
-    "route": 7,
-    "past": false
-  },
-  {
-    "location": "Alexandria, VA",
-    "coordinates": [-77.0469, 38.8048],
-    "stayDuration": "long",
-    "year": 2025,
-    "arrive": "Oct 26, 2025",
-    "depart": "Nov 26, 2025",
+    "arrive": "Nov 23, 2025",
+    "depart": "Dec 6, 2025",
     "route": 7,
     "past": false
   },
@@ -927,8 +920,8 @@
     "coordinates": [-74.006, 40.7128],
     "stayDuration": "long",
     "year": 2025,
-    "arrive": "Nov 30, 2025",
-    "depart": "Jan 3, 2026",
+    "arrive": "Dec 7, 2025",
+    "depart": "Jan 10, 2026",
     "route": 7,
     "past": false
   }
