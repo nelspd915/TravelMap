@@ -2,11 +2,23 @@
   {
     "location": "Duluth, MN",
     "coordinates": [-92.1, 46.7867],
+    "visiting": "Home",
     "stayDuration": "long",
-    "year": 2020,
-    "arrive": "Hometown",
-    "depart": "TBD",
+    "year": 2026,
+    "arrive": "Start",
+    "depart": "January 2026",
     "route": 2,
     "past": true
+  },
+  {
+    "location": "Lindstrom, MN",
+    "coordinates": [-92.848, 45.3894],
+    "visiting": "Bringgold family",
+    "stayDuration": "short",
+    "year": 2026,
+    "arrive": "January 2026",
+    "depart": "January 2026",
+    "route": 2,
+    "past": false
   }
 ]
