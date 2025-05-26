@@ -52,6 +52,7 @@ async function addTravelDataToMap(map, travelData, routes) {
         .setPopup(
           new mapboxgl.Popup({ offset: 25, closeButton: false }).setHTML(
             `<h3 class="popup-text">${destination.location}</h3>
+             ${destination.visiting ? `<p class="popup-text">Visiting: ${destination.visiting}</p>` : ""}
              <p class="popup-text">Arrive: ${destination.arrive}</p>
              <p class="popup-text">Depart: ${destination.depart}</p>`
           )
