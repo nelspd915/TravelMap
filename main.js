@@ -225,7 +225,8 @@ map.on("load", async () => {
   const travelData = await (await fetch("./travel-data.json")).json();
   const routes = await (await fetch("./routes.json")).json();
 
-  createLegend();
+  // Don't need a route legend for this map at the moment since it only uses one color
+  // createLegend();
   await addTravelDataToMap(map, travelData, routes);
   preprocessDuplicateCoordinates();
   spreadMarkers();
