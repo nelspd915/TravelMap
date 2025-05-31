@@ -846,11 +846,11 @@
     "past": true
   },
   {
-    "location": "Missoula, MT",
-    "coordinates": [-113.9883, 46.8721],
+    "location": "Portland, OR",
+    "coordinates": [-122.6762, 45.5235],
     "stayDuration": "short",
     "year": 2025,
-    "arrive": "Jun 1, 2025",
+    "arrive": "May 31, 2025",
     "depart": "Jun 7, 2025",
     "route": 6,
     "past": false
@@ -866,21 +866,11 @@
     "past": false
   },
   {
-    "location": "Minneapolis, MN",
-    "coordinates": [-93.265, 44.9778],
-    "stayDuration": "long",
-    "year": 2025,
-    "arrive": "Jul 6, 2025",
-    "depart": "Aug 9, 2025",
-    "route": 6,
-    "past": false
-  },
-  {
     "location": "Portland, OR",
     "coordinates": [-122.6762, 45.5235],
     "stayDuration": "long",
     "year": 2025,
-    "arrive": "Aug 10, 2025",
+    "arrive": "Jul 6, 2025",
     "depart": "Sep 13, 2025",
     "route": 7,
     "past": false
@@ -896,8 +886,8 @@
     "past": false
   },
   {
-    "location": "Madison, WI",
-    "coordinates": [-89.4012, 43.0731],
+    "location": "Minneapolis, MN",
+    "coordinates": [-93.265, 44.9778],
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Oct 19, 2025",
