@@ -853,7 +853,7 @@
     "arrive": "May 31, 2025",
     "depart": "Jun 7, 2025",
     "route": 6,
-    "past": false
+    "past": true
   },
   {
     "location": "Duluth, MN",
@@ -866,18 +866,28 @@
     "past": false
   },
   {
+    "location": "Minneapolis, MN",
+    "coordinates": [-93.265, 44.9778],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Jul 6, 2025",
+    "depart": "Aug 10, 2025",
+    "route": 6,
+    "past": false
+  },
+  {
     "location": "Portland, OR",
     "coordinates": [-122.6762, 45.5235],
     "stayDuration": "long",
     "year": 2025,
-    "arrive": "Jul 6, 2025",
+    "arrive": "Aug 11, 2025",
     "depart": "Sep 13, 2025",
     "route": 7,
     "past": false
   },
   {
-    "location": "Grand Junction, CO",
-    "coordinates": [-108.5506, 39.0639],
+    "location": "Denver, CO",
+    "coordinates": [-104.9903, 39.7392],
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Sep 14, 2025",
@@ -891,16 +901,6 @@
     "stayDuration": "long",
     "year": 2025,
     "arrive": "Oct 19, 2025",
-    "depart": "Nov 22, 2025",
-    "route": 7,
-    "past": false
-  },
-  {
-    "location": "Duluth, MN",
-    "coordinates": [-92.1, 46.7867],
-    "stayDuration": "short",
-    "year": 2025,
-    "arrive": "Nov 23, 2025",
     "depart": "Dec 6, 2025",
     "route": 7,
     "past": false
