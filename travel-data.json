@@ -863,16 +863,26 @@
     "arrive": "Jun 8, 2025",
     "depart": "Jul 6, 2025",
     "route": 6,
+    "past": true
+  },
+  {
+    "location": "Portland, OR",
+    "coordinates": [-122.6762, 45.5235],
+    "stayDuration": "long",
+    "year": 2025,
+    "arrive": "Jul 7, 2025",
+    "depart": "Aug 9, 2025",
+    "route": 7,
     "past": false
   },
   {
     "location": "Minneapolis, MN",
     "coordinates": [-93.265, 44.9778],
-    "stayDuration": "long",
+    "stayDuration": "short",
     "year": 2025,
-    "arrive": "Jul 6, 2025",
-    "depart": "Aug 10, 2025",
-    "route": 6,
+    "arrive": "Aug 10, 2025",
+    "depart": "Aug 30, 2025",
+    "route": 7,
     "past": false
   },
   {
@@ -880,38 +890,28 @@
     "coordinates": [-122.6762, 45.5235],
     "stayDuration": "long",
     "year": 2025,
-    "arrive": "Aug 11, 2025",
-    "depart": "Sep 13, 2025",
+    "arrive": "Sep 1, 2025",
+    "depart": "Oct 4, 2025",
     "route": 7,
     "past": false
   },
   {
     "location": "Denver, CO",
     "coordinates": [-104.9903, 39.7392],
-    "stayDuration": "long",
+    "stayDuration": "short",
     "year": 2025,
-    "arrive": "Sep 14, 2025",
-    "depart": "Oct 18, 2025",
+    "arrive": "Oct 5, 2025",
+    "depart": "Oct 25, 2025",
     "route": 7,
     "past": false
   },
   {
-    "location": "Minneapolis, MN",
-    "coordinates": [-93.265, 44.9778],
+    "location": "Portland, OR",
+    "coordinates": [-122.6762, 45.5235],
     "stayDuration": "long",
     "year": 2025,
-    "arrive": "Oct 19, 2025",
+    "arrive": "Oct 26, 2025",
     "depart": "Dec 6, 2025",
-    "route": 7,
-    "past": false
-  },
-  {
-    "location": "New York, NY",
-    "coordinates": [-74.006, 40.7128],
-    "stayDuration": "long",
-    "year": 2025,
-    "arrive": "Dec 7, 2025",
-    "depart": "Jan 10, 2026",
     "route": 7,
     "past": false
   }
